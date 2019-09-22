@@ -1,0 +1,37 @@
+{
+  "UANL": {
+    "Facultad": [
+      {
+        "nombre": "Facultad de Ingenieria Mecanica y Electrica",
+        "abrev": "FIME",
+        "descripcion": "La Facultad de Ingeniería Mecánica y Eléctrica (FIME) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León.",
+        "lat": {
+          "x": "25.72536",
+          "y": "-100.31346"
+        },
+        "marcador": [
+          {
+            "ID": "1",
+            "nombre": "Cafeteria FIME",
+            "descripcion": "La cafeteria oficial de FIME",
+            "categoria": "Comidas",
+            "lat": {
+              "x": "25.72565",
+              "y": "-100.31373"
+            }
+          },
+          {
+            "ID": "2",
+            "nombre": "Papeleria FIME",
+            "descripcion": "Venta de utensilios escolares universitarios",
+            "categoria": "Ventas",
+            "lat": {
+              "x": "25.72549",
+              "y": "-100.31343"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
