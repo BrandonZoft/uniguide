@@ -1,6 +1,7 @@
 {
-  "UANL": {
-    "Facultad": [
+  "Universidad": {
+    "nombre": "Universidad Autonoma de Nuevo Leon",
+    "Facultades": [
       {
         "nombre": "Facultad de Ingenieria Mecanica y Electrica",
         "abrev": "FIME",
@@ -11,7 +12,6 @@
         },
         "marcador": [
           {
-            "ID": "1",
             "nombre": "Cafeteria FIME",
             "descripcion": "La cafeteria oficial de FIME",
             "categoria": "Comidas",
@@ -21,13 +21,70 @@
             }
           },
           {
-            "ID": "2",
             "nombre": "Papeleria FIME",
             "descripcion": "Venta de utensilios escolares universitarios",
             "categoria": "Ventas",
             "lat": {
               "x": "25.72549",
               "y": "-100.31343"
+            }
+          }
+        ]
+      },
+      {
+        "nombre": "Facultad de Arquitectura",
+        "abrev": "FARQ",
+        "descripcion": "La Facultad de Ingeniería Mecánica y Eléctrica (FIME) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León.",
+        "lat": {
+          "x": "25.72516",
+          "y": "-100.31200"
+        },
+        "marcador": [
+          {
+            "nombre": "Cafeteria FARQ",
+            "descripcion": "La cafeteria oficial de FARQ",
+            "categoria": "Comidas",
+            "lat": {
+              "x": "25.72544",
+              "y": "-100.31118"
+            }
+          },
+          {
+            "nombre": "Papeleria FARQ",
+            "descripcion": "Venta de utensilios escolares universitarios",
+            "categoria": "Ventas",
+            "lat": {
+              "x": "25.72564",
+              "y": "-100.31193"
+            }
+          }
+        ]
+      },
+      {
+        "nombre": "Facultad de Contaduría Pública y Administración",
+        "abrev": "FACPYA",
+        "descripcion": "La Facultad de Contaduría Pública y Administración (FACPYA) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León.",
+        "lat": {
+          "x": "25.72728",
+          "y": "-100.30913"
+        },
+        "marcador": [
+          {
+            "nombre": "Cafeteria FACPYA",
+            "descripcion": "La cafeteria oficial de FACPYA",
+            "categoria": "Comidas",
+            "lat": {
+              "x": "25.72760",
+              "y": "-100.30955"
+            }
+          },
+          {
+            "nombre": "Papeleria FACPYA",
+            "descripcion": "Venta de utensilios escolares universitarios",
+            "categoria": "Ventas",
+            "lat": {
+              "x": "25.72774",
+              "y": "-100.30922"
             }
           }
         ]
