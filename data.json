@@ -12,13 +12,17 @@
             "nombre": "Cafeteria FIME",
             "descripcion": "La cafeteria oficial de FIME",
             "categoria": "Comidas",
-            "coordenadas": "25.72565, -100.31373"
+            "coordenadas": "25.72565, -100.31373",
+            "icon": "utensils",
+            "markerColor": "red"
           },
           {
             "nombre": "Papeleria FIME",
             "descripcion": "Venta de utensilios escolares universitarios",
             "categoria": "Ventas",
-            "coordenadas": "25.72549, -100.31343"
+            "coordenadas": "25.72549, -100.31343",
+            "icon": "paperclip",
+            "markerColor": "yellow"
           }
         ]
       },
@@ -32,13 +36,17 @@
             "nombre": "Cafeteria FARQ",
             "descripcion": "La cafeteria oficial de FARQ",
             "categoria": "Comidas",
-            "coordenadas": "25.72544, -100.31118"
+            "coordenadas": "25.72544, -100.31118",
+            "icon": "utensils",
+            "markerColor": "red"
           },
           {
             "nombre": "Papeleria FARQ",
             "descripcion": "Venta de utensilios escolares universitarios",
             "categoria": "Ventas",
-            "coordenadas": "25.72564, -100.31193"
+            "coordenadas": "25.72564, -100.31193",
+            "icon": "paperclip",
+            "markerColor": "yellow"
           }
         ]
       },
@@ -52,13 +60,17 @@
             "nombre": "Cafeteria FACPYA",
             "descripcion": "La cafeteria oficial de FACPYA",
             "categoria": "Comidas",
-            "coordenadas": "25.72760, -100.30955"
+            "coordenadas": "25.72760, -100.30955",
+            "icon": "utensils",
+            "markerColor": "red"
           },
           {
             "nombre": "Papeleria FACPYA",
             "descripcion": "Venta de utensilios escolares universitarios",
             "categoria": "Ventas",
-            "coordenadas": "25.72774, -100.30922"
+            "coordenadas": "25.72774, -100.30922",
+            "icon": "paperclip",
+            "markerColor": "yellow"
           }
         ]
       }
