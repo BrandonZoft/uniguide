@@ -22,7 +22,7 @@
             "categoria": "Ventas",
             "coordenadas": "25.72549, -100.31343",
             "icon": "paperclip",
-            "markerColor": "yellow"
+            "markerColor": "orange"
           }
         ]
       },
@@ -46,7 +46,7 @@
             "categoria": "Ventas",
             "coordenadas": "25.72564, -100.31193",
             "icon": "paperclip",
-            "markerColor": "yellow"
+            "markerColor": "orange"
           }
         ]
       },
@@ -70,7 +70,7 @@
             "categoria": "Ventas",
             "coordenadas": "25.72774, -100.30922",
             "icon": "paperclip",
-            "markerColor": "yellow"
+            "markerColor": "orange"
           }
         ]
       }
