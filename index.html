@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Uniguide</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/leaflet.awesome-markers.css">
+    <script src="https://kit.fontawesome.com/6dd374d802.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+    <label for="faculty-choice">Lugar:</label>
+    <input list="faculty-list" id="faculty-choice" name="faculty-choice" />
+
+    <datalist id="faculty-list">
+    <option value="Ciudad Universitaria">
+    </datalist>
+
+    <label for="class-choice">Categoria:</label>
+    <input list="class-list" id="class-choice" name="class-choice" />
+
+    <datalist id="class-list" >
+    <option value="Todo">
+    </datalist>
+
+    <button class="button" onclick="search()">Buscar</button>
+
+
+    <div id="map" class="map">
+    <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
+    <script src="js/leaflet.awesome-markers.js"></script>
+    <script src="js/Control.Geocoder.js"></script>
+    <script src="json_logic.js"></script>
+    <script src="js/leaflet-routing-machine.js"></script>
+    <script src="js/lrm-graphhopper.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
