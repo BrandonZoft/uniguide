@@ -10,17 +10,87 @@
         "marcador": [
           {
             "nombre": "Cafeteria FIME",
-            "descripcion": "La cafeteria oficial de FIME",
+            "descripcion": "La cafeteria oficial de FIME.",
             "categoria": "Comidas",
             "coordenadas": "25.72565, -100.31373",
             "icon": "utensils"
           },
           {
             "nombre": "Papeleria FIME",
-            "descripcion": "Venta de utensilios escolares universitarios",
+            "descripcion": "Venta de utensilios escolares universitarios.",
             "categoria": "Ventas",
             "coordenadas": "25.72549, -100.31343",
             "icon": "paperclip"
+          },
+          {
+            "nombre": "Bebedero ",
+            "descripcion": "Bebedero del edificio 4 de FIME, cuenta con refill de agua.",
+            "categoria": "Bebederos",
+            "coordenadas": "25.72549, -100.31343",
+            "icon": "tint"
+          },
+          {
+            "nombre": "Bebedero",
+            "descripcion": "Bebedero detras del edificio 4 de FIME, cuenta con refill de agua.",
+            "categoria": "Bebederos",
+            "coordenadas": "25.72616,-100.31305",
+            "icon": "tint"
+          },
+          {
+            "nombre": "Bebedero",
+            "descripcion": "Bebedero a lado del edificio 3 de FIME.",
+            "categoria": "Bebederos",
+            "coordenadas": "25.72595,-100.31334",
+            "icon": "tint"
+          },
+          {
+            "nombre": "Baño",
+            "descripcion": "Baños dentro del edificio 4 de FIME.",
+            "categoria": "Baños",
+            "coordenadas": "25.72624,-100.31316",
+            "icon": "restroom"
+          },
+          {
+            "nombre": "Baño",
+            "descripcion": "Dos baños dentro de la biblioteca de FIME, primer y tercer piso.",
+            "categoria": "Baños",
+            "coordenadas": "25.72622,-100.31377",
+            "icon": "restroom"
+          },
+          {
+            "nombre": "Baño",
+            "descripcion": "Baños dentro del edificio 6 de FIME en el segundo piso.",
+            "categoria": "Baños",
+            "coordenadas": "25.72597,-100.31392",
+            "icon": "restroom"
+          },
+          {
+            "nombre": "Baño",
+            "descripcion": "Baños en el edificio 1 de FIME, primer piso para hombres, segundo piso para mujeres.",
+            "categoria": "Baños",
+            "coordenadas": "25.72524,-100.31333",
+            "icon": "restroom"
+          },
+          {
+            "nombre": "Baño",
+            "descripcion": "Baños en el edificio 2 de FIME, primer piso de hombres, segundo piso para mujeres.",
+            "categoria": "Baños",
+            "coordenadas": "25.72524,-100.31333",
+            "icon": "restroom"
+          },
+          {
+            "nombre": "Baño",
+            "descripcion": "Baños en el edificio 3 de FIME, primer piso de hombres (entrada por HUBNATURA), segundo piso para mujeres, tercer piso para hombres.",
+            "categoria": "Baños",
+            "coordenadas": "25.72600,-100.31328",
+            "icon": "restroom"
+          },
+          {
+            "nombre": "Baño",
+            "descripcion": "Baños en el edificio 9 de FIME, segundo piso de mujeres, tercer piso para hombres.",
+            "categoria": "Baños",
+            "coordenadas": "25.72600,-100.31328",
+            "icon": "restroom"
           }
         ]
       },
@@ -32,14 +102,14 @@
         "marcador": [
           {
             "nombre": "Cafeteria FARQ",
-            "descripcion": "La cafeteria oficial de FARQ",
+            "descripcion": "La cafeteria oficial de FARQ.",
             "categoria": "Comidas",
             "coordenadas": "25.72544, -100.31118",
             "icon": "utensils"
           },
           {
             "nombre": "Papeleria FARQ",
-            "descripcion": "Venta de utensilios escolares universitarios",
+            "descripcion": "Venta de utensilios escolares universitarios.",
             "categoria": "Ventas",
             "coordenadas": "25.72564, -100.31193",
             "icon": "paperclip"
@@ -54,14 +124,14 @@
         "marcador": [
           {
             "nombre": "Cafeteria FACPYA",
-            "descripcion": "La cafeteria oficial de FACPYA",
+            "descripcion": "La cafeteria oficial de FACPYA.",
             "categoria": "Comidas",
             "coordenadas": "25.72760, -100.30955",
             "icon": "utensils"
           },
           {
             "nombre": "Papeleria FACPYA",
-            "descripcion": "Venta de utensilios escolares universitarios",
+            "descripcion": "Venta de utensilios escolares universitarios.",
             "categoria": "Ventas",
             "coordenadas": "25.72774, -100.30922",
             "icon": "paperclip"
