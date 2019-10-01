@@ -1,3 +1,10 @@
+$(document).ready(function () {
+	$('#menu-icon').on('click', function () {
+		$('.navbar').toggleClass('expand');
+		return false;
+	});
+});
+
 var map = L.map('map');
 
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
@@ -5,7 +12,7 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 	maxZoom: 18 //not working
 }).addTo(map);
 
-map.setView(new L.LatLng(25.72650, -100.31180), 17);
+map.setView(new L.LatLng(25.72650, -100.31180), 16);
 
 // 'control' previously called 'routingControl'
 var control = L.Routing.control({

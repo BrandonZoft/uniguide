@@ -21,9 +21,9 @@ request.onreadystatechange = function (response) {
                 // Create a new <option> element.
                 var option = document.createElement('option');
                 // Set the value using the item in the JSON array.
-                option.value = window.jsonOptions.Universidad.Facultades[i].nombre;
+                option.text = window.jsonOptions.Universidad.Facultades[i].nombre;
                 // Add the <option> element to the <datalist>.
-                facultyList.appendChild(option);
+                $('#faculty-choice').append(option).trigger('change');
             };
 
 
@@ -38,13 +38,15 @@ request.onreadystatechange = function (response) {
                 }
             }
 
+
+            
             for (i in category_list) {
                 // Create a new <option> element.
                 var option = document.createElement('option');
                 // Set the value using the item in the JSON array.
-                option.value = category_list[i]
+                option.text = category_list[i]
                 // Add the <option> element to the <datalist>.
-                classList.appendChild(option);
+                $('#class-choice').append(option).trigger('change');
             }
 
             // Update the placeholder text.
@@ -56,6 +58,7 @@ request.onreadystatechange = function (response) {
         }
     }
 };
+
 
 // Update the placeholder text.
 facultyInput.placeholder = "cargando opciones";
@@ -73,7 +76,7 @@ function search() {
     categoria = document.getElementById("class-choice").value;
     // only work for empty forms, what if user types 'ssss'.
     if (facultad == '' || categoria == '') {
-        console.log("wait, that's illegal")
+        
     } else if (facultad == "Ciudad Universitaria") {
         for (i in window.jsonOptions.Universidad.Facultades) {
             for (k in window.jsonOptions.Universidad.Facultades[i].marcador) {
@@ -89,7 +92,7 @@ function search() {
                 }
             }
         }
-    } // add categoria == todos
+    }
     else {
         for (i in window.jsonOptions.Universidad.Facultades) {
             if (window.jsonOptions.Universidad.Facultades[i].nombre == facultad) {
@@ -153,7 +156,7 @@ function search() {
         }
 
         var newMarker = L.marker([coordenadasArray[0], coordenadasArray[1]], { icon: L.AwesomeMarkers.icon({ icon: jsonIcon, prefix: 'fa', markerColor: jsonColor }) }).on('click', onClick).addTo(map);
-        newMarker.bindPopup(info).openPopup()
+        newMarker.bindPopup(info)
         popupMarkerArray.addLayer(newMarker)
 
         
@@ -172,12 +175,18 @@ function search() {
             control.spliceWaypoints(control.getWaypoints().length - 1, 1, position);
             endmarker.setLatLng(new L.LatLng(position.lat, position.lng), { draggable: 'false'});
         });
-        map.addLayer(endmarker);
+        // map.addLayer(endmarker); don't show marker when selecting destination
         map.closePopup();
     }
     
 }
 
+$('#faculty-choice').select2({
+    placeholder: "Seleccione un lugar"
+});
+$('#class-choice').select2({
+    placeholder: "Seleccione una categoria",
+});
 
 // https://stackoverflow.com/questions/37478727/how-can-i-make-a-browser-display-all-datalist-options-when-a-default-value-is-se
 $('input').on('click', function () {
@@ -190,6 +199,7 @@ $('input').on('mouseleave', function () {
     }
 });
 
+search();
 // A1 A
 // A B1
 // B1 C
