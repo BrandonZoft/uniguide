@@ -67,7 +67,24 @@ facultyInput.placeholder = "cargando opciones";
 request.open('GET', 'https://raw.githubusercontent.com/BrandonZoft/uniguide/master/data.json', true);
 request.send();
 
-// search markers based on user input
+function searchTags() {
+    tagsValue = document.getElementById("tags").value.toLowerCase();
+    window.marker = {}
+    let tagsArray = []
+
+    for (i in window.jsonOptions.Universidad.Facultades) {
+        for (k in window.jsonOptions.Universidad.Facultades[i].marcador) {
+            var tag = window.jsonOptions.Universidad.Facultades[i].marcador[k].tags
+            if (tag.includes(tagsValue) == true) {
+                loopIndex = [i, k]
+                tagsArray.push(loopIndex)
+            }
+        }
+    }
+
+    json_create_markers(tagsArray)
+}
+
 function search() {
     window.marker = {}
     let ikArray = []
@@ -120,6 +137,15 @@ function search() {
         window.marker[i] = window.jsonOptions.Universidad.Facultades[ikArray[i][0]].marcador[ikArray[i][1]]
     }
 
+    json_create_markers(ikArray)
+    
+}
+
+function json_create_markers(json_array) {
+    for (i in json_array) {
+        window.marker[i] = window.jsonOptions.Universidad.Facultades[json_array[i][0]].marcador[json_array[i][1]]
+    }
+
     // deletes and creates markers when user clicks search
     // https://stackoverflow.com/questions/24318862/removing-all-data-markers-in-leaflet-map-before-calling-another-json
     popupMarkerArray.clearLayers()
@@ -127,27 +153,20 @@ function search() {
     for (i in window.marker) {
         // getInfoFrom writes to .bindPopup
         // https://gis.stackexchange.com/questions/261028/dynamically-create-leaflet-popup-via-javascript-object
-        function getInfoFrom(object) {
-            var popupFood = [];
-            for (var key in object) {
-                if (object.hasOwnProperty(key)) {
-                    var stringLine = key + ": " + object[key];
-                    popupFood.push(stringLine);
-                }
-            }
-            return popupFood;
-        }
-
-        var info = getInfoFrom(marker[i]).join(" <br>");
+        
+        let nombre = "<h3>" + marker[i].nombre + "</h3>"
+        let imagen = '<img src="https://www.fime.me/members/dr-freud/albums/varios/2969-el-prometido-starbucks-version-fimena.jpg" class="img-fluid">'
+        let descripcion = marker[i].descripcion
+        let info = nombre + imagen + descripcion
 
         var coordenadasArray = marker[i].coordenadas.split(",")
 
         var jsonIcon = marker[i].icon
 
         // list of colors for icons
-        if (marker[i].categoria == 'Ventas'){
+        if (marker[i].categoria == 'Ventas') {
             var jsonColor = 'orange'
-        } else if (marker[i].categoria == 'Comidas'){
+        } else if (marker[i].categoria == 'Comidas') {
             var jsonColor = 'red'
         } else if (marker[i].categoria == 'Bebederos') {
             var jsonColor = 'blue'
@@ -159,33 +178,32 @@ function search() {
         newMarker.bindPopup(info)
         popupMarkerArray.addLayer(newMarker)
 
-        
-    }
-    
-    map.addLayer(popupMarkerArray);
 
-    // when user clicks on marker, update routing destination
-    function onClick(e) {
-        control.spliceWaypoints(control.getWaypoints().length - 1, 1, e.latlng);
-        map.removeLayer(endmarker);
-        endmarker = new L.marker(e.latlng, { draggable: 'false', icon: L.AwesomeMarkers.icon({ icon: 'location-arrow', prefix: 'fa', markerColor: 'darkpurple' })});
-        endmarker.on('dragend', function (event) {
-            endmarker = event.target;
-            var position = endmarker.getLatLng();
-            control.spliceWaypoints(control.getWaypoints().length - 1, 1, position);
-            endmarker.setLatLng(new L.LatLng(position.lat, position.lng), { draggable: 'false'});
-        });
-        // map.addLayer(endmarker); don't show marker when selecting destination
-        map.closePopup();
     }
-    
+
+    map.addLayer(popupMarkerArray);
+}
+
+// when user clicks on marker, update routing destination
+function onClick(e) {
+    control.spliceWaypoints(control.getWaypoints().length - 1, 1, e.latlng);
+    map.removeLayer(endmarker);
+    endmarker = new L.marker(e.latlng, { draggable: 'false', icon: L.AwesomeMarkers.icon({ icon: 'location-arrow', prefix: 'fa', markerColor: 'darkpurple' }) });
+    endmarker.on('dragend', function (event) {
+        endmarker = event.target;
+        var position = endmarker.getLatLng();
+        control.spliceWaypoints(control.getWaypoints().length - 1, 1, position);
+        endmarker.setLatLng(new L.LatLng(position.lat, position.lng), { draggable: 'false' });
+    });
+    // map.addLayer(endmarker); don't show marker when selecting destination
+    map.closePopup();
 }
 
 $('#faculty-choice').select2({
     placeholder: "Seleccione un lugar"
 });
 $('#class-choice').select2({
-    placeholder: "Seleccione una categoria",
+    placeholder: "Seleccione una categoria"
 });
 
 // https://stackoverflow.com/questions/37478727/how-can-i-make-a-browser-display-all-datalist-options-when-a-default-value-is-se
@@ -200,34 +218,3 @@ $('input').on('mouseleave', function () {
 });
 
 search();
-// A1 A
-// A B1
-// B1 C
-// x0 B1
-// C B
-// D B
-// e B
-// x0 B
-// B B1
-// B B2
-// B B3
-// B B4
-// B B5
-// B B6
-// B2 B3
-// B2 B4
-// B2 B1
-// B2 e
-// x0 B3
-// B3 C
-// B3 D
-// B4 B1
-// B4 A
-// B4 C
-// x0 B4
-// x0 B5
-// C B6
-// x0 B6
-// C1 C
-// D D1
-// D1 

@@ -7,8 +7,10 @@ $(document).ready(function () {
 
 var map = L.map('map');
 
-L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-	attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+//'http://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png'
+
+L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png', {
+	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>',
 	maxZoom: 18 //not working
 }).addTo(map);
 
@@ -70,3 +72,4 @@ map.on('click', function (e) {
 });
 
 L.Routing.errorControl(control).addTo(map);  
+
