@@ -13,6 +13,7 @@
             "descripcion": "La cafeteria oficial de FIME.",
             "categoria": "Comidas",
             "coordenadas": "25.72565, -100.31373",
+            "tags": "comidas, cafeteria, burritos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas",
             "icon": "utensils"
           },
           {
@@ -20,6 +21,7 @@
             "descripcion": "Venta de utensilios escolares universitarios.",
             "categoria": "Ventas",
             "coordenadas": "25.72549, -100.31343",
+            "tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
             "icon": "paperclip"
           },
           {
@@ -27,6 +29,7 @@
             "descripcion": "Bebedero del edificio 4 de FIME, cuenta con refill de agua.",
             "categoria": "Bebederos",
             "coordenadas": "25.72635,-100.31344",
+            "tags": "agua, refill, bebederos",
             "icon": "tint"
           },
           {
@@ -34,6 +37,7 @@
             "descripcion": "Bebedero detras del edificio 4 de FIME, cuenta con refill de agua.",
             "categoria": "Bebederos",
             "coordenadas": "25.72616,-100.31305",
+            "tags": "agua, refill, bebederos",
             "icon": "tint"
           },
           {
@@ -41,6 +45,7 @@
             "descripcion": "Bebedero a lado del edificio 3 de FIME.",
             "categoria": "Bebederos",
             "coordenadas": "25.72595,-100.31334",
+            "tags": "agua, bebedero, bebederos",
             "icon": "tint"
           },
           {
@@ -48,6 +53,7 @@
             "descripcion": "Baños dentro del edificio 4 de FIME.",
             "categoria": "Baños",
             "coordenadas": "25.72624,-100.31316",
+            "tags": "lavabos, jabon, baños",
             "icon": "restroom"
           },
           {
@@ -55,6 +61,7 @@
             "descripcion": "Dos baños dentro de la biblioteca de FIME, primer y tercer piso.",
             "categoria": "Baños",
             "coordenadas": "25.72622,-100.31377",
+            "tags": "lavabos, jabon, baños",
             "icon": "restroom"
           },
           {
@@ -62,6 +69,7 @@
             "descripcion": "Baños dentro del edificio 6 de FIME en el segundo piso.",
             "categoria": "Baños",
             "coordenadas": "25.72597,-100.31392",
+            "tags": "lavabos, jabon, baños",
             "icon": "restroom"
           },
           {
@@ -69,6 +77,7 @@
             "descripcion": "Baños en el edificio 1 de FIME, primer piso para hombres, segundo piso para mujeres.",
             "categoria": "Baños",
             "coordenadas": "25.72524,-100.31333",
+            "tags": "lavabos, jabon, baños",
             "icon": "restroom"
           },
           {
@@ -76,6 +85,7 @@
             "descripcion": "Baños en el edificio 2 de FIME, primer piso de hombres, segundo piso para mujeres.",
             "categoria": "Baños",
             "coordenadas": "25.72524,-100.31333",
+            "tags": "lavabos, jabon, baños",
             "icon": "restroom"
           },
           {
@@ -83,6 +93,7 @@
             "descripcion": "Baños en el edificio 3 de FIME, primer piso de hombres (entrada por HUBNATURA), segundo piso para mujeres, tercer piso para hombres.",
             "categoria": "Baños",
             "coordenadas": "25.72600,-100.31328",
+            "tags": "lavabos, jabon, baños",
             "icon": "restroom"
           },
           {
@@ -90,6 +101,7 @@
             "descripcion": "Baños en el edificio 9 de FIME, segundo piso de mujeres, tercer piso para hombres.",
             "categoria": "Baños",
             "coordenadas": "25.72600,-100.31328",
+            "tags": "lavabos, jabon, baños",
             "icon": "restroom"
           }
         ]
@@ -105,6 +117,7 @@
             "descripcion": "La cafeteria oficial de FARQ.",
             "categoria": "Comidas",
             "coordenadas": "25.72544, -100.31118",
+            "tags": "comidas, cafeteria, burritos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas",
             "icon": "utensils"
           },
           {
@@ -112,6 +125,7 @@
             "descripcion": "Venta de utensilios escolares universitarios.",
             "categoria": "Ventas",
             "coordenadas": "25.72564, -100.31193",
+            "tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
             "icon": "paperclip"
           }
         ]
@@ -127,6 +141,7 @@
             "descripcion": "La cafeteria oficial de FACPYA.",
             "categoria": "Comidas",
             "coordenadas": "25.72760, -100.30955",
+            "tags": "comidas, cafeteria, burritos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas",
             "icon": "utensils"
           },
           {
@@ -134,6 +149,7 @@
             "descripcion": "Venta de utensilios escolares universitarios.",
             "categoria": "Ventas",
             "coordenadas": "25.72774, -100.30922",
+            "tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
             "icon": "paperclip"
           }
         ]
