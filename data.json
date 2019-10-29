@@ -103,6 +103,16 @@
             "coordenadas": "25.72600,-100.31328",
             "tags": "lavabos, jabon, baños",
             "icon": "restroom"
+          },
+          {
+            "nombre": "Doña Burros",
+            "descripcion": "Burritos de distintos guisos, combinación perfecta un burrito de discada y de pizza.",
+            "categoria": "Comidas",
+            "coordenadas": "25.72651, -100.31278",
+            "horario": "9:00 AM - 12:00 PM",
+            "precios": "Cada burrito $12",
+            "tags": "lavabos, jabon, baños",
+            "icon": "utensils"
           }
         ]
       },
@@ -287,7 +297,7 @@
           {
             "nombre": "Biblioteca de FACDYC",
             "descripcion": "Biblioteca de FACYDC ubicada en el segundo piso del Edificio 1",
-            "categoria": "Comidas",
+            "categoria": "Biblioteca",
             "coordenadas": "25.72666,-100.31029",
             "horario": "7:30 AM - 9:00 PM",
             "tags": "libros, estudio, descanso, computadoras, cubiculos",
