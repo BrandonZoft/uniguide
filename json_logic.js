@@ -172,8 +172,8 @@ function json_create_markers(json_array) {
             var jsonColor = 'blue'
         } else if (marker[i].categoria == 'Baños') {
             var jsonColor = 'blue'
-        } else if (marker[i].categoria == 'Ventas') {
-            var jsonColor = 'darkred'
+        } else if (marker[i].categoria == 'Papeleria') {
+            var jsonColor = 'orange'
         } else if (marker[i].categoria == 'Cajeros') {
             var jsonColor = 'darkgreen'
         } else if (marker[i].categoria == 'Biblioteca') {

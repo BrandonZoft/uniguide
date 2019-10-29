@@ -248,6 +248,92 @@
             "icon": "money-bill"
           }
         ]
+      },
+      {
+        "nombre": "Facultad de Derecho y Criminología",
+        "abrev": "FACDYC",
+        "descripcion": "La Facultad de Derecho y Criminología (FACDYC) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León.",
+        "coordenadas": "25.72636,-100.31054",
+        "marcador": [
+          {
+            "nombre": "Snack de FACDYC (Los Chidos)",
+            "descripcion": "Snack de FACDYC ubicado a un costado de la entrada de la FACDYC.",
+            "categoria": "Comidas",
+            "coordenadas": "25.72668,-100.31019",
+            "horario": "8:30 AM - 10:00 PM",
+            "tags": "comidas, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas, mesas",
+            "icon": "hamburger"
+          },
+          {
+            "nombre": "Cafetería FACDYC",
+            "descripcion": "Cafetería oficial de FACDYC",
+            "categoria": "Comidas",
+            "coordenadas": "25.72610,-100.31116",
+            "horario": "7:30 AM - 9:30 PM",
+            "precios": "Comida del dia $60.00, Comida especial $70.00, Chilaquiles $55.00, Taco de Guiso $12.00, Burrito de Guiso $25.00",
+            "tags": "comidas, cafeteria, burritos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas, mesas",
+            "icon": "utensils"
+          },
+          {
+            "nombre": "Papelería de FACDYC",
+            "descripcion": "Papelería de FACDYC",
+            "categoria": "Papeleria",
+            "coordenadas": "25.72657,-100.31052",
+            "horario": "7:00 AM - 9:30 PM",
+            "precios": "Copias $0.50 c/u, Impresiones B&N $1.00 c/u, Engargolado $25.00",
+            "tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
+            "icon": "paperclip"
+          },
+          {
+            "nombre": "Biblioteca de FACDYC",
+            "descripcion": "Biblioteca de FACYDC ubicada en el segundo piso del Edificio 1",
+            "categoria": "Comidas",
+            "coordenadas": "25.72666,-100.31029",
+            "horario": "7:30 AM - 9:00 PM",
+            "tags": "libros, estudio, descanso, computadoras, cubiculos",
+            "icon": "book-reader"
+          },
+          {
+            "nombre": "Cajero BANORTE",
+            "descripcion": "Cajero BANORTE Ubicado frente al estacionamiento de FACDYC/FACPYA",
+            "categoria": "Cajero",
+            "coordenadas": "25.72692,-100.30978",
+            "tags": "cajeros, dinero, money, atm, cash, efectivo, afirme",
+            "icon": "money-bill"
+          },
+          {
+            "nombre": "Baños",
+            "descripcion": "Baño ubicado en el segundo piso",
+            "categoria": "Baños",
+            "coordenadas": "25.72658,-100.31066",
+            "tags": "lavabos, jabon, baños",
+            "icon": "restroom"
+          },
+          {
+            "nombre": "Baños",
+            "descripcion": "Baño ubicado en primer piso, frente a la cafeteria de FACDYC",
+            "categoria": "Baños",
+            "coordenadas": "25.72611,-100.31084",
+            "tags": "lavabos, jabon, baños",
+            "icon": "restroom"
+          },
+          {
+            "nombre": "Bebedero",
+            "descripcion": "Bebedero ubicado en el segundo piso, cuenta con refill",
+            "categoria": "Bebederos",
+            "coordenadas": "25.72675,-100.31089",
+            "tags": "agua, bebedero, bebederos, refill",
+            "icon": "tint"
+          },
+          {
+            "nombre": "Bebedero",
+            "descripcion": "Bebedero ubicado en el segundo piso, cuenta con refill",
+            "categoria": "Bebederos",
+            "coordenadas": "25.72655,-100.31072",
+            "tags": "agua, bebedero, bebederos, refill",
+            "icon": "tint"
+          }
+        ]
       }
     ]
   }
