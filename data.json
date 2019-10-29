@@ -306,7 +306,7 @@
           {
             "nombre": "Cajero BANORTE",
             "descripcion": "Cajero BANORTE Ubicado frente al estacionamiento de FACDYC/FACPYA",
-            "categoria": "Cajero",
+            "categoria": "Cajeros",
             "coordenadas": "25.72692,-100.30978",
             "tags": "cajeros, dinero, money, atm, cash, efectivo, afirme",
             "icon": "money-bill"
@@ -340,6 +340,54 @@
             "descripcion": "Bebedero ubicado en el segundo piso, cuenta con refill",
             "categoria": "Bebederos",
             "coordenadas": "25.72655,-100.31072",
+            "tags": "agua, bebedero, bebederos, refill",
+            "icon": "tint"
+          }
+        ]
+      },
+      {
+        "nombre": "Facultad de Ingenieria Civil",
+        "abrev": "FIC",
+        "descripcion": "La Facultad de Ingenieria Civil (FIC) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León.",
+        "coordenadas": "25.72439,-100.31376",
+        "marcador": [
+          {
+            "nombre": "Cafeteria de Civil",
+            "descripcion": "Cafetería oficial de Civil",
+            "categoria": "Comidas",
+            "coordenadas": "25.72475,-100.31410",
+            "tags": "comidas, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas, mesas, nuggets",
+            "icon": "utensils"
+          },
+          {
+            "nombre": "Chilaquiles de Civil",
+            "descripcion": "Venta de ricos chilaquiles",
+            "categoria": "Comidas",
+            "coordenadas": "25.72479,-100.31426",
+            "tags": "chilaquiles, tortillas, tacos, salsa, verde, rojos",
+            "icon": "utensils"
+          },
+          {
+            "nombre": "Bebedero ",
+            "descripcion": "Bebedero ubicado frente a la Cafeteria de Civil",
+            "categoria": "Bebederos",
+            "coordenadas": "25.72476,-100.31388",
+            "tags": "agua, refill, bebederos, refill",
+            "icon": "tint"
+          },
+          {
+            "nombre": "Bebedero",
+            "descripcion": "Bebedero ubicado frente a la parada de Camiones, cuenta con refill",
+            "categoria": "Bebederos",
+            "coordenadas": "25.72394,-100.31334",
+            "tags": "agua, refill, bebederos, refill",
+            "icon": "tint"
+          },
+          {
+            "nombre": "Bebedero",
+            "descripcion": "Bebedero ubicado en la parada de Camiones, cuenta con refill",
+            "categoria": "Bebederos",
+            "coordenadas": "25.72379,-100.31337",
             "tags": "agua, bebedero, bebederos, refill",
             "icon": "tint"
           }
