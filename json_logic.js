@@ -172,6 +172,12 @@ function json_create_markers(json_array) {
             var jsonColor = 'blue'
         } else if (marker[i].categoria == 'Baños') {
             var jsonColor = 'blue'
+        } else if (marker[i].categoria == 'Ventas') {
+            var jsonColor = 'darkred'
+        } else if (marker[i].categoria == 'Cajeros') {
+            var jsonColor = 'darkgreen'
+        } else {
+            var jsonColor = 'cadetblue'
         }
 
         var newMarker = L.marker([coordenadasArray[0], coordenadasArray[1]], { icon: L.AwesomeMarkers.icon({ icon: jsonIcon, prefix: 'fa', markerColor: jsonColor }) }).on('click', onClick).addTo(map);
@@ -200,10 +206,10 @@ function onClick(e) {
 }
 
 $('#faculty-choice').select2({
-    placeholder: "Seleccione un lugar"
+    placeholder: "Seleccionar"
 });
 $('#class-choice').select2({
-    placeholder: "Seleccione una categoria"
+    placeholder: "Seleccionar"
 });
 
 // https://stackoverflow.com/questions/37478727/how-can-i-make-a-browser-display-all-datalist-options-when-a-default-value-is-se

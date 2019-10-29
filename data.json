@@ -19,7 +19,7 @@
           {
             "nombre": "Papeleria FIME",
             "descripcion": "Venta de utensilios escolares universitarios.",
-            "categoria": "Ventas",
+            "categoria": "Papeleria",
             "coordenadas": "25.72549, -100.31343",
             "tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
             "icon": "paperclip"
@@ -123,7 +123,7 @@
           {
             "nombre": "Papeleria FARQ",
             "descripcion": "Venta de utensilios escolares universitarios.",
-            "categoria": "Ventas",
+            "categoria": "Papeleria",
             "coordenadas": "25.72564, -100.31193",
             "tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
             "icon": "paperclip"
@@ -140,17 +140,96 @@
             "nombre": "Cafeteria FACPYA",
             "descripcion": "La cafeteria oficial de FACPYA.",
             "categoria": "Comidas",
-            "coordenadas": "25.72760, -100.30955",
+            "coordenadas": "25.72761,-100.30954",
+            "horario": "7:00 AM - 9:30 PM",
             "tags": "comidas, cafeteria, burritos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas",
             "icon": "utensils"
           },
           {
+            "nombre": "Biblioteca de FACPYA",
+            "descripcion": "Biblioteca FACPYA",
+            "categoria": "Biblioteca",
+            "coordenadas": "25.72734,-100.30938",
+            "tags": "libros, estudio, descanso, computadoras, cubiculos",
+            "icon": "book-reader"
+          },
+          {
+            "nombre": "Hotchos de FACPYA",
+            "descripcion": "Establecimiento de hot dogs ubicado a un costado de la cafetería de FACPYA.",
+            "categoria": "Comidas",
+            "coordenadas": "25.72749,-100.30946",
+            "horario": "8:30 AM - 9:30 PM",
+            "precios": "Hotdogs grandes $20, Hotdogs normales $15",
+            "tags": "hotdogs, hotchos, comidas",
+            "icon": "hotdog"
+          },
+          {
+            "nombre": "Snack de FACPYA",
+            "descripcion": "Snack ubicado entre FACPYA y Trabajo Social ",
+            "categoria": "Comidas",
+            "coordenadas": "25.72812,-100.30970",
+            "horario": "8:00 AM - 9:30 PM",
+            "tags": "snacks, comidas, refrescos, coca, soda, papas",
+            "icon": "hamburger"
+          },
+          {
             "nombre": "Papeleria FACPYA",
-            "descripcion": "Venta de utensilios escolares universitarios.",
-            "categoria": "Ventas",
-            "coordenadas": "25.72774, -100.30922",
+            "descripcion": "Centro de copiado e impresion a un costado de la Biblioteca de FACPYA",
+            "categoria": "Papeleria",
+            "coordenadas": "25.72733,-100.30952",
+            "horario": "7:00 AM - 9:00 PM",
             "tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
             "icon": "paperclip"
+          },
+          {
+            "nombre": "Articulos FACPYA Libreria Elefantes",
+            "descripcion": "Venta de souvenirs",
+            "categoria": "Ventas",
+            "coordenadas": "25.72730,-100.30954",
+            "horario": "10:00 AM - 8:30 PM",
+            "precios": "Impresion B&N $1.00 c/u, copias $0.50 c/u.",
+            "tags": "souvenirs, articulos, elefantes, tienda, chaquetas, paraguas, termos, mochilas, maletines",
+            "icon": "gifts"
+          },
+          {
+            "nombre": "Baños",
+            "descripcion": "Baños ubicados en el Edificio 11, hombres primer piso/mujeres segundo piso.",
+            "categoria": "Baños",
+            "coordenadas": "25.72862,-100.30877",
+            "tags": "lavabos, jabon, baños",
+            "icon": "restroom"
+          },
+          {
+            "nombre": "Baños",
+            "descripcion": "Baños ubicados en el Edificio 8.",
+            "categoria": "Baños",
+            "coordenadas": "25.72807,-100.30914",
+            "tags": "lavabos, jabon, baños",
+            "icon": "restroom"
+          },
+          {
+            "nombre": "Baños",
+            "descripcion": "Baños ubicados en el Edificio 1.",
+            "categoria": "Baños",
+            "coordenadas": "25.72741,-100.30961",
+            "tags": "lavabos, jabon, baños",
+            "icon": "restroom"
+          },
+          {
+            "nombre": "Bebedero",
+            "descripcion": "Bebedero ubicado en el area central de FACPYA",
+            "categoria": "Bebederos",
+            "coordenadas": "25.72808,-100.30927",
+            "tags": "agua, bebedero, bebederos",
+            "icon": "tint"
+          },
+          {
+            "nombre": "Bebedero",
+            "descripcion": "Bebedero ubicado frente a la Biblioteca de FACPYA, cuenta con refill",
+            "categoria": "Bebederos",
+            "coordenadas": "25.72744,-100.30930",
+            "tags": "agua, bebedero, bebederos",
+            "icon": "tint"
           }
         ]
       }

@@ -11,7 +11,8 @@ var map = L.map('map');
 
 L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png', {
 	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>',
-	maxZoom: 18 //not working
+	maxZoom: 19, //not working
+	minZoom: 16
 }).addTo(map);
 
 map.setView(new L.LatLng(25.72650, -100.31180), 16);
@@ -73,3 +74,37 @@ map.on('click', function (e) {
 
 L.Routing.errorControl(control).addTo(map);  
 
+L.easyButton('fa-crosshairs fa-lg', function (btn, map) {
+	var home = {
+		lat: 25.72650,
+		lng: -100.31180,
+		zoom: 16
+	}; 
+	map.setView([home.lat, home.lng], home.zoom);
+}).addTo(map);
+
+// var data_points = {
+// 	"type": "FeatureCollection",
+// 	"name": "test-points-short-named",
+// 	"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+// 	"features": [
+// 		{ "type": "Feature", "properties": { "name": "FIME" }, "geometry": { "type": "Point", "coordinates": [-100.31340, 25.72506] } },
+// 		{ "type": "Feature", "properties": { "name": "FIC" }, "geometry": { "type": "Point", "coordinates": [-100.31381, 25.72439] } },
+// 		{ "type": "Feature", "properties": { "name": "FCQ" }, "geometry": { "type": "Point", "coordinates": [-100.31546, 25.72439] } },
+// 		{ "type": "Feature", "properties": { "name": "FCB" }, "geometry": { "type": "Point", "coordinates": [-100.31638, 25.72439] } },
+// 		{ "type": "Feature", "properties": { "name": "FCFM" }, "geometry": { "type": "Point", "coordinates": [-100.31518, 25.72539] } },
+// 		{ "type": "Feature", "properties": { "name": "FOD" }, "geometry": { "type": "Point", "coordinates": [-100.31249, 25.72742] } },
+// 		{ "type": "Feature", "properties": { "name": "FACPYA" }, "geometry": { "type": "Point", "coordinates": [-100.30910, 25.72811] } }
+// 	]
+// };
+
+// var pointLayer = L.geoJSON(null, {
+// 	pointToLayer: function (feature, latlng) {
+// 		label = String(feature.properties.name) // .bindTooltip can't use straight 'feature.properties.attribute'
+// 		return new L.CircleMarker(latlng, {
+// 			radius: 0.01,
+// 		}).bindTooltip(label, { permanent: true, direction: "center", className: "my-labels" }).openTooltip();
+// 	}
+// });
+// pointLayer.addData(data_points);
+// map.addLayer(pointLayer);
