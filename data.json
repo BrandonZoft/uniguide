@@ -233,17 +233,17 @@
           },
           {
             "nombre": "Cajero AFIRME",
-            "descripcion": "Cajero de Afirme",
+            "descripcion": "Cajero ubicado a un lado del gimnasio de FACPYA",
             "categoria": "Cajeros",
-            "coordenadas": "25.72875,-100.30925",
+            "coordenadas": "25.72872,-100.30916",
             "tags": "cajeros, dinero, money, atm, cash, efectivo, afirme",
             "icon": "money-bill"
           },
           {
             "nombre": "Cajero AFIRME",
-            "descripcion": "Cajero de Afirme",
+            "descripcion": "Cajero ubicado dentro de FACPYA",
             "categoria": "Cajeros",
-            "coordenadas": "25.72875,-100.30925",
+            "coordenadas": "25.72800,-100.30922",
             "tags": "cajeros, dinero, money, atm, cash, efectivo, afirme",
             "icon": "money-bill"
           }
