@@ -157,7 +157,7 @@ function json_create_markers(json_array) {
         let nombre = "<h3>" + marker[i].nombre + "</h3>"
         let imagen = '<img src="https://www.fime.me/members/dr-freud/albums/varios/2969-el-prometido-starbucks-version-fimena.jpg" class="img-fluid">'
         let descripcion = marker[i].descripcion
-        let info = nombre + imagen + descripcion
+        let info = nombre + descripcion
 
         var coordenadasArray = marker[i].coordenadas.split(",")
 
@@ -176,7 +176,9 @@ function json_create_markers(json_array) {
             var jsonColor = 'darkred'
         } else if (marker[i].categoria == 'Cajeros') {
             var jsonColor = 'darkgreen'
-        } else {
+        } else if (marker[i].categoria == 'Biblioteca') {
+            var jsonColor = 'darkpurple'
+        }else {
             var jsonColor = 'cadetblue'
         }
 

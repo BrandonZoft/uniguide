@@ -230,6 +230,22 @@
             "coordenadas": "25.72744,-100.30930",
             "tags": "agua, bebedero, bebederos",
             "icon": "tint"
+          },
+          {
+            "nombre": "Cajero AFIRME",
+            "descripcion": "Cajero de Afirme",
+            "categoria": "Cajeros",
+            "coordenadas": "25.72875,-100.30925",
+            "tags": "cajeros, dinero, money, atm, cash, efectivo, afirme",
+            "icon": "money-bill"
+          },
+          {
+            "nombre": "Cajero AFIRME",
+            "descripcion": "Cajero de Afirme",
+            "categoria": "Cajeros",
+            "coordenadas": "25.72875,-100.30925",
+            "tags": "cajeros, dinero, money, atm, cash, efectivo, afirme",
+            "icon": "money-bill"
           }
         ]
       }
