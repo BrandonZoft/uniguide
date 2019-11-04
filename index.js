@@ -93,7 +93,8 @@ L.easyButton('fa-crosshairs fa-lg', function (btn, map) {
 	map.setView([home.lat, home.lng], home.zoom);
 }).addTo(map);
 
-map.addControl(new L.Control.Compass());
+var comp = new L.Control.Compass({ autoActive: true});
+map.addControl(comp);
 
 // var data_points = {
 // 	"type": "FeatureCollection",

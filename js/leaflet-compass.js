@@ -109,7 +109,8 @@ L.Control.Compass = L.Control.extend({
 		else if(e.alpha)			//android
 			angle = e.alpha;
 		else {
-			this._errorCompass({message: 'Orientation angle not found'});
+			// comment to hide error
+			// this._errorCompass({message: 'Orientation angle not found'});
 		}
 		
 		angle = Math.round(angle);
