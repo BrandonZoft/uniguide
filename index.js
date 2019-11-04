@@ -5,9 +5,7 @@ $(document).ready(function () {
 	});
 });
 
-var map = L.map('map');
-
-
+var map = new L.map('map');
 
 // Bounds
 var southWest = L.latLng(25.7501, -100.3434),
@@ -42,8 +40,8 @@ var control = L.Routing.control({
 	})
 }).addTo(map);
 
-// control.hide();
-map.removeControl(control)
+control.hide();
+// map.removeControl(control)
 
 var router = control.getRouter();
 router.on('response',function(e){
