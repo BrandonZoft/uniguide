@@ -104,6 +104,20 @@ L.easyButton('fa-crosshairs fa-lg', function (btn, map) {
 var comp = new L.Control.Compass({ autoActive: true});
 map.addControl(comp);
 
+var fime = 'images/FIME.png',
+	FIMEbounds = [[25.72573, -100.31418], [25.725264767960276, -100.31327378454574]],
+	fod = 'images/FOD.png',
+	fodbounds = [[25.72764, -100.31283], [25.727333072980567, -100.31214849260252]],
+	ftsydh = 'images/FTSYDH.png',
+	ftsydhbounds = [[25.7279719285322, -100.31035422961385], [25.72777182813346, -100.30986231198034]]
+	facpya = 'images/FACPYA.png',
+		facpyabounds = [[25.72827, -100.30973], [25.72784, -100.30868]]
+
+L.imageOverlay(fime, FIMEbounds).addTo(map);
+L.imageOverlay(fod, fodbounds).addTo(map);
+L.imageOverlay(ftsydh, ftsydhbounds).addTo(map);
+L.imageOverlay(facpya, facpyabounds).addTo(map);
+
 // var data_points = {
 // 	"type": "FeatureCollection",
 // 	"name": "test-points-short-named",
