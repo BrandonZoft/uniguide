@@ -7,10 +7,19 @@ $(document).ready(function () {
 
 var map = L.map('map');
 
+
+
+// Bounds
+var southWest = L.latLng(25.7501, -100.3434),
+	northEast = L.latLng(25.6768, -100.2548),
+	bounds = L.latLngBounds(southWest, northEast);
+
+map.setMaxBounds(bounds);
 //'http://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png'
 
 L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png', {
-	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>',
+	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a> <a href="https://leafletjs.com/">Leaflet</a> | © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	maxBounds: bounds,
 	maxZoom: 19, //not working
 	minZoom: 16
 }).addTo(map);
@@ -33,7 +42,8 @@ var control = L.Routing.control({
 	})
 }).addTo(map);
 
-control.hide();
+// control.hide();
+map.removeControl(control)
 
 var router = control.getRouter();
 router.on('response',function(e){
@@ -82,6 +92,8 @@ L.easyButton('fa-crosshairs fa-lg', function (btn, map) {
 	}; 
 	map.setView([home.lat, home.lng], home.zoom);
 }).addTo(map);
+
+map.addControl(new L.Control.Compass());
 
 // var data_points = {
 // 	"type": "FeatureCollection",
