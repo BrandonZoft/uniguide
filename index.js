@@ -29,7 +29,7 @@ L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png', {
 	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a> <a href="https://leafletjs.com/">Leaflet</a> | © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 	maxBounds: bounds,
 	maxZoom: 19, //not working
-	minZoom: 16
+	minZoom: 15
 }).addTo(map);
 
 map.setView(new L.LatLng(25.72650, -100.31180), 16);
@@ -107,16 +107,38 @@ map.addControl(comp);
 var fime = 'images/FIME.png',
 	FIMEbounds = [[25.72573, -100.31418], [25.725264767960276, -100.31327378454574]],
 	fod = 'images/FOD.png',
-	fodbounds = [[25.72764, -100.31283], [25.727333072980567, -100.31214849260252]],
+	fodbounds = [[25.72764, -100.31283], [25.72733, -100.31236]],
 	ftsydh = 'images/FTSYDH.png',
-	ftsydhbounds = [[25.7279719285322, -100.31035422961385], [25.72777182813346, -100.30986231198034]]
+	ftsydhbounds = [[25.72793, -100.31038], [25.72770, -100.30979]]
 	facpya = 'images/FACPYA.png',
-		facpyabounds = [[25.72827, -100.30973], [25.72784, -100.30868]]
+		facpyabounds = [[25.72827, -100.30973], [25.72786, -100.30874]]
+	facdyc = 'images/FACDYC.png',
+		facdycbounds = [[25.72650, -100.31105], [25.72616, -100.31009]]
+	farq = 'images/FARQ.png',
+	farqbounds = [[25.72551, -100.31237], [25.72510, -100.31135]]
+	fcb = 'images/FCB.png',
+	fcbbounds = [[25.72473, -100.31681], [25.72424, -100.31616]]
+	fcq = 'images/FCQ.png',
+		fcqbounds = [[25.72461, -100.31574], [25.72419, -100.31515]]
+	fic = 'images/FIC.png',
+		ficbounds = [[25.72455, -100.31417], [25.72417, -100.31369]]
+	fcfm = 'images/FCFM.png',
+	fcfmbounds = [[25.72568, -100.31564], [25.72536, -100.31493]]
+	ffly = 'images/FFYL.png',
+		fflybounds = [[25.72710, -100.31098], [25.72678, -100.31040]]
+
 
 L.imageOverlay(fime, FIMEbounds).addTo(map);
 L.imageOverlay(fod, fodbounds).addTo(map);
 L.imageOverlay(ftsydh, ftsydhbounds).addTo(map);
 L.imageOverlay(facpya, facpyabounds).addTo(map);
+L.imageOverlay(facdyc, facdycbounds).addTo(map);
+L.imageOverlay(farq, farqbounds).addTo(map);
+L.imageOverlay(fcb, fcbbounds).addTo(map);
+L.imageOverlay(fcq, fcqbounds).addTo(map);
+L.imageOverlay(fic, ficbounds).addTo(map);
+L.imageOverlay(fcfm, fcfmbounds).addTo(map);
+L.imageOverlay(ffly, fflybounds).addTo(map);
 
 // var data_points = {
 // 	"type": "FeatureCollection",
