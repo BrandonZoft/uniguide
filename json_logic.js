@@ -69,6 +69,9 @@ request.send();
 
 function searchTags() {
     tagsValue = document.getElementById("tags").value.toLowerCase();
+    if(tagsValue == ""){
+        alert("Putos");
+    }
     window.marker = {}
     let tagsArray = []
 
@@ -93,7 +96,7 @@ function search() {
     categoria = document.getElementById("class-choice").value;
     // only work for empty forms, what if user types 'ssss'.
     if (facultad == '' || categoria == '') {
-        
+        alert("Putos");
     } else if (facultad == "Ciudad Universitaria") {
         for (i in window.jsonOptions.Universidad.Facultades) {
             for (k in window.jsonOptions.Universidad.Facultades[i].marcador) {
