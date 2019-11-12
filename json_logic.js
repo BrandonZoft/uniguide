@@ -3,6 +3,7 @@ var facultyList = document.getElementById('faculty-list');
 var facultyInput = document.getElementById('faculty-choice');
 let classList = document.getElementById('class-list');
 var classInput = document.getElementById('class-choice');
+var counter= 0;
 
 // Create a new XMLHttpRequest.
 var request = new XMLHttpRequest();
@@ -66,11 +67,13 @@ facultyInput.placeholder = "cargando opciones";
 // Set up and make the request.
 request.open('GET', 'https://raw.githubusercontent.com/BrandonZoft/uniguide/master/data.json', true);
 request.send();
-
+if(counter>=3){
+    alert("HOLI");
+}
 function searchTags() {
     tagsValue = document.getElementById("tags").value.toLowerCase();
     if(tagsValue == ""){
-        alert("Holi");
+        counter=counter+1;
     }
     window.marker = {}
     let tagsArray = []
@@ -96,7 +99,7 @@ function search() {
     categoria = document.getElementById("class-choice").value;
     // only work for empty forms, what if user types 'ssss'.
     if (facultad == '' || categoria == '') {
-        alert("Holi");
+        counter=counter+1;
     } else if (facultad == "Ciudad Universitaria") {
         for (i in window.jsonOptions.Universidad.Facultades) {
             for (k in window.jsonOptions.Universidad.Facultades[i].marcador) {
