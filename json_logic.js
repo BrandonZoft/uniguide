@@ -69,7 +69,7 @@ request.open('GET', 'https://raw.githubusercontent.com/BrandonZoft/uniguide/mast
 request.send();
 function searchTags() {
     tagsValue = document.getElementById("tags").value.toLowerCase();
-    if(tagsValue == "" && counter>1){
+    if(tagsValue == "" && counter>0){
         alert("HOLI");
         counter=counter+1;
     }
@@ -96,7 +96,7 @@ function search() {
     facultad = document.getElementById("faculty-choice").value;
     categoria = document.getElementById("class-choice").value;
     // only work for empty forms, what if user types 'ssss'.
-    if (facultad == '' || categoria == '' && counter>1) {
+    if (facultad == '' || categoria == '' && counter>0) {
         alert("HOLI");
         counter=counter+1;
     } else if (facultad == "Ciudad Universitaria") {
