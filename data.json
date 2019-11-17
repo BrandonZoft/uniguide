@@ -168,7 +168,7 @@
             "nombre": "Souvenirs FIME",
             "descripcion": "Tienda oficial de FIME. Venta de chamarras, gorras, termos, entre otros souvenirs oficiales de FIME.",
             "categoria": "Ventas",
-            "coordenadas": "25.72546,-100.31361",
+            "coordenadas": "25.72550,-100.31350",
             "tags": "souvenirs, articulos, osos, tienda, chaquetas, paraguas, gorras, termos, chamarras, termos, mochilas, maletines",
             "icon": "gifts"
           }
@@ -195,6 +195,57 @@
             "coordenadas": "25.72564, -100.31193",
             "tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
             "icon": "paperclip"
+          }
+        ]
+      },
+      {
+        "nombre": "Facultad de Trabajo Social y Desarrollo Humano",
+        "abrev": "FTSYDH",
+        "descripcion": "La Facultad de Trabajo Social y Desarrollo Humano (FTSYDH) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León.",
+        "coordenadas": "25.72516, -100.31200",
+        "marcador": [
+          {
+            "nombre": "Cafetería de FTSYDH",
+            "descripcion": "La cafeteria oficial de FTSYDH.",
+            "categoria": "Comidas",
+            "coordenadas": "25.72796,-100.30987",
+            "horario": "7: 00 AM - 9: 00 PM",
+            "tags": "comidas, cafeteria, burritos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas",
+            "icon": "utensils"
+          },
+          {
+            "nombre": "Papeleria de FTSYDH",
+            "descripcion": "Papeleria de FTSYDH",
+            "categoria": "Papeleria",
+            "coordenadas": "25.72780,-100.31002",
+            "horario": "7: 00 AM - 9: 00 PM",
+            "precios": "Impresiones B&N $1.00 c/u, Copias $0.50 c/u, Engargolado $20.00",
+            "tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
+            "icon": "paperclip"
+          },
+          {
+            "nombre": "Bebedero",
+            "descripcion": "Bebedero ubicado en el edificio 2",
+            "categoria": "Bebederos",
+            "coordenadas": "25.72793,-100.31019",
+            "tags": "agua, bebedero, bebederos",
+            "icon": "tint"
+          },
+          {
+            "nombre": "Baños",
+            "descripcion": "Baño de mujeres.",
+            "categoria": "Baños",
+            "coordenadas": "25.72792,-100.31025",
+            "tags": "lavabos, jabon, baños",
+            "icon": "restroom"
+          },
+          {
+            "nombre": "Baños",
+            "descripcion": "Baño de hombres",
+            "categoria": "Baños",
+            "coordenadas": "25.72775,-100.31026",
+            "tags": "lavabos, jabon, baños",
+            "icon": "restroom"
           }
         ]
       },
@@ -447,6 +498,48 @@
             "coordenadas": "25.72379,-100.31337",
             "tags": "agua, bebedero, bebederos, refill",
             "icon": "tint"
+          }
+        ]
+      },
+      {
+        "nombre": "Facultad de Filosofía y Letras",
+        "abrev": "FFYL",
+        "descripcion": "La Facultad de Filosofía y Letras (FFYL) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León.",
+        "coordenadas": "25.72439,-100.31376",
+        "marcador": [
+          {
+            "nombre": "Cafetería de FFYL",
+            "descripcion": "Cafetería Oficial de FFYL",
+            "categoria": "Comidas",
+            "coordenadas": "25.72724,-100.31060",
+            "tags": "comidas, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas, mesas, nuggets",
+            "icon": "utensils"
+          },
+          {
+            "nombre": "Papeleria de FFYL",
+            "descripcion": "Papeleria de FFYL ubicada frente al estacionamiento",
+            "categoria": "Papeleria",
+            "coordenadas": "25.72731,-100.31074",
+            "horario": "7:00 AM - 9:30 PM",
+            "precios": "Copias $1.00 c/u, Impresiones B&N $1.00 c/u, Engargolado $20.00",
+            "tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
+            "icon": "paperclip"
+          },
+          {
+            "nombre": "Bebedero ",
+            "descripcion": "Bebedero ubicado frente al estacionamiento de FFYL, cuenta con refill.",
+            "categoria": "Bebederos",
+            "coordenadas": "25.72730,-100.31073",
+            "tags": "agua, refill, bebederos, refill",
+            "icon": "tint"
+          },
+          {
+            "nombre": "Baños",
+            "descripcion": "Baños ubicados frente a la entrada de FFYL",
+            "categoria": "Baños",
+            "coordenadas": "25.72731,-100.31036",
+            "tags": "lavabos, jabon, baños",
+            "icon": "restroom"
           }
         ]
       }
