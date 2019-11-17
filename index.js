@@ -18,8 +18,8 @@ $(document).ready(function () {
 var map = new L.map('map');
 
 // Bounds
-var southWest = L.latLng(25.7501, -100.3434),
-	northEast = L.latLng(25.6768, -100.2548),
+var southWest = L.latLng(25.7027, -100.2803),
+	northEast = L.latLng(25.7385, -100.3314),
 	bounds = L.latLngBounds(southWest, northEast);
 
 map.setMaxBounds(bounds);
@@ -29,7 +29,7 @@ L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png', {
 	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a> <a href="https://leafletjs.com/">Leaflet</a> | © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 	maxBounds: bounds,
 	maxZoom: 19, //not working
-	minZoom: 15
+	minZoom: 16
 }).addTo(map);
 
 map.setView(new L.LatLng(25.72650, -100.31180), 16);

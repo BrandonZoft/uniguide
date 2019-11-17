@@ -3,7 +3,6 @@ var facultyList = document.getElementById('faculty-list');
 var facultyInput = document.getElementById('faculty-choice');
 let classList = document.getElementById('class-list');
 var classInput = document.getElementById('class-choice');
-var counter= 0;
 
 // Create a new XMLHttpRequest.
 var request = new XMLHttpRequest();
@@ -69,24 +68,29 @@ request.open('GET', 'https://raw.githubusercontent.com/BrandonZoft/uniguide/mast
 request.send();
 function searchTags() {
     tagsValue = document.getElementById("tags").value.toLowerCase();
-    if(tagsValue == "" && counter>0){
-        alert("HOLI");
-        counter=counter+1;
-    }
     window.marker = {}
     let tagsArray = []
 
-    for (i in window.jsonOptions.Universidad.Facultades) {
-        for (k in window.jsonOptions.Universidad.Facultades[i].marcador) {
-            var tag = window.jsonOptions.Universidad.Facultades[i].marcador[k].tags
-            if (tag.includes(tagsValue) == true) {
-                loopIndex = [i, k]
-                tagsArray.push(loopIndex)
+    if (tagsValue !== ''){
+        for (i in window.jsonOptions.Universidad.Facultades) {
+            for (k in window.jsonOptions.Universidad.Facultades[i].marcador) {
+                var tag = window.jsonOptions.Universidad.Facultades[i].marcador[k].tags
+                if (tag.includes(tagsValue) == true) {
+                    loopIndex = [i, k]
+                    tagsArray.push(loopIndex)
+                }
             }
         }
+
+        if (tagsArray.length === 0){
+            alert("No se encontro ningun lugar");
+        }
+        json_create_markers(tagsArray)
+
+    } else {
+        alert("No se encontro ningun lugar");
     }
 
-    json_create_markers(tagsArray)
 }
 
 function search() {
@@ -96,9 +100,8 @@ function search() {
     facultad = document.getElementById("faculty-choice").value;
     categoria = document.getElementById("class-choice").value;
     // only work for empty forms, what if user types 'ssss'.
-    if (facultad == '' || categoria == '' && counter>0) {
-        alert("HOLI");
-        counter=counter+1;
+    if (facultad == '' || categoria == '') {
+        alert("Seleccione un lugar y categoria");
     } else if (facultad == "Ciudad Universitaria") {
         for (i in window.jsonOptions.Universidad.Facultades) {
             for (k in window.jsonOptions.Universidad.Facultades[i].marcador) {
@@ -169,8 +172,9 @@ function json_create_markers(json_array) {
         var jsonIcon = marker[i].icon
 
         // list of colors for icons
+        // 'red', 'darkred', 'orange', 'green', 'darkgreen', 'blue', 'purple', 'darkpurple', 'cadetblue'
         if (marker[i].categoria == 'Ventas') {
-            var jsonColor = 'orange'
+            var jsonColor = 'cadetblue'
         } else if (marker[i].categoria == 'Comidas') {
             var jsonColor = 'red'
         } else if (marker[i].categoria == 'Bebederos') {
@@ -183,7 +187,9 @@ function json_create_markers(json_array) {
             var jsonColor = 'darkgreen'
         } else if (marker[i].categoria == 'Biblioteca') {
             var jsonColor = 'darkpurple'
-        }else {
+        } else if (marker[i].categoria == 'Impresiones') {
+            var jsonColor = 'orange'
+        } else {
             var jsonColor = 'cadetblue'
         }
 
@@ -229,5 +235,3 @@ $('input').on('mouseleave', function () {
         $(this).val($(this).attr('placeholder'));
     }
 });
-
-search();
