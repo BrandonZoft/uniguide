@@ -121,7 +121,7 @@
             "precios": "Cada burrito $12",
             "tags": "burros, tacos, burripizza, burritos, deshebrada",
             "icon": "utensils",
-            "foto": "/images/IMG-20191026-WA0052.jpg"
+            "foto": "images/IMG-20191026-WA0052.jpg"
           },
           {
             "nombre": "Snack de FIME",
@@ -148,7 +148,7 @@
             "coordenadas": "25.72631, -100.31264",
             "tags": "Doritos preparados, duritos, Tostitos y Conchitas preparadas, frituras, dulces",
             "icon": "utensils",
-            "foto": "/images/IMG-20191026-WA0053.jpg"
+            "foto": "images/IMG-20191026-WA0053.jpg"
           },
           {
             "nombre": "Don Chip",
@@ -188,7 +188,7 @@
             "coordenadas": "25.72544, -100.31118",
             "tags": "comidas, cafeteria, burritos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas",
             "icon": "utensils",
-            "foto": "/images/IMG-20191026-WA0043.jpg"
+            "foto": "images/IMG-20191026-WA0043.jpg"
           },
           {
             "nombre": "Papeleria FARQ(Doña CHOPE)",
@@ -197,7 +197,7 @@
             "coordenadas": "25.72564, -100.31193",
             "tags": "papeleria, utensilios, enmicado, engargolado",
             "icon": "paperclip",
-            "foto": "/images/IMG-20191026-WA0055.jpg"
+            "foto": "images/IMG-20191026-WA0055.jpg"
           },
           {
             "nombre": "Impresiones FARQ",
@@ -206,7 +206,7 @@
             "coordenadas": "25.72531,-100.31193",
             "tags": "copias, impresiones",
             "icon": "paperclip",
-            "foto": "/images/IMG-20191026-WA0048.jpg"
+            "foto": "images/IMG-20191026-WA0048.jpg"
           },
           {
             "nombre": "Papeleria PEGASSO",
@@ -215,7 +215,7 @@
             "coordenadas": "25.72499,-100.31246",
             "tags": "papeleria, utensilios, enmicado, engargolado,copias, impresiones",
             "icon": "paperclip",
-            "foto": "/images/IMG-20191026-WA0049.jpg"
+            "foto": "images/IMG-20191026-WA0049.jpg"
           },
           {
             "nombre": "Snack de FARQ",
@@ -224,7 +224,7 @@
             "coordenadas": "25.72631, -100.31264",
             "tags": "postre, tacos, hamburguesa, smoothie, papas, Tostitos y tostadas preparadas, frituras, dulces",
             "icon": "utensils",
-            "foto": "/images/IMG-20191026-WA0045.jpg"
+            "foto": "images/IMG-20191026-WA0045.jpg"
           },
           {
             "nombre": "Biblioteca de FARQ",
@@ -232,8 +232,7 @@
             "categoria": "Biblioteca",
             "coordenadas": "25.72734,-100.30938",
             "tags": "libros, estudio, descanso, computadoras, cubiculos",
-            "icon": "book-reader",
-            "foto": "25.72538,-100.31144.jpg"
+            "icon": "book-reader"
           },
           {
             "nombre": "BINBOX",
@@ -242,7 +241,7 @@
             "coordenadas": "25.72586,-100.31207",
             "tags": "café,postre",
             "icon": "utensils",
-            "foto": "/images/IMG-20191026-WA0054.jpg"
+            "foto": "images/IMG-20191026-WA0054.jpg"
           }
         ]
       },
@@ -270,7 +269,7 @@
             "precios": "Impresiones B&N $1.00 c/u, Copias $0.50 c/u, Engargolado $20.00",
             "tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
             "icon": "paperclip",
-            "foto": "/images/IMG-20191026-WA0037.jpg"
+            "foto": "images/IMG-20191026-WA0037.jpg"
           },
           {
             "nombre": "Snack de FTSYDH",
@@ -280,7 +279,7 @@
             "horario": "6:30 AM - 9:30 PM",
             "tags": "comidas, cafeteria, hot dog, pizza dog, sandwich, fruta, nachos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas, cafe, frutas, manzana, platano, papas fritas, gatorade, chocolate",
             "icon": "utensils",
-            "foto": "/images/IMG-20191026-WA0036.jpg"
+            "foto": "images/IMG-20191026-WA0036.jpg"
           },
           {
             "nombre": "Biblioteca de FTSYDH",
@@ -289,7 +288,7 @@
             "coordenadas": "25.72779,-100.31014",
             "tags": "libros, estudio, descanso, computadoras, cubiculos",
             "icon": "book-reader",
-            "foto": "/images/IMG-20191026-WA0038.jpg"
+            "foto": "images/IMG-20191026-WA0038.jpg"
           },
           {
             "nombre": "Bebedero",
@@ -331,7 +330,7 @@
             "horario": "7:00 AM - 9:30 PM",
             "tags": "comidas, cafeteria, burritos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas",
             "icon": "utensils",
-            "foto": "/images/IMG-20191026-WA0032.jpg"
+            "foto": "images/IMG-20191026-WA0032.jpg"
           },
           {
             "nombre": "Biblioteca de FACPYA",
@@ -340,7 +339,7 @@
             "coordenadas": "25.72734,-100.30938",
             "tags": "libros, estudio, descanso, computadoras, cubiculos",
             "icon": "book-reader",
-            "foto": "/images/IMG-20191026-WA0030.jpg"
+            "foto": "images/IMG-20191026-WA0030.jpg"
           },
           {
             "nombre": "Hotchos de FACPYA",
@@ -351,7 +350,7 @@
             "precios": "Hotdogs grandes $20, Hotdogs normales $15",
             "tags": "hotdogs, hotchos, comidas, tacos, refrescos, soda",
             "icon": "hotdog",
-            "foto": "/images/IMG-20191026-WA0029.jpg"
+            "foto": "images/IMG-20191026-WA0029.jpg"
           },
           {
             "nombre": "Snack de FACPYA",
@@ -361,7 +360,7 @@
             "horario": "8:00 AM - 9:30 PM",
             "tags": "snacks, comidas, refrescos, coca, soda, papas",
             "icon": "hamburger",
-            "foto": "/images/IMG-20191026-WA0035.jpg"
+            "foto": "images/IMG-20191026-WA0035.jpg"
           },
           {
             "nombre": "Papeleria FACPYA",
@@ -371,7 +370,7 @@
             "horario": "7:00 AM - 9:00 PM",
             "tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
             "icon": "paperclip",
-            "foto": "/images/IMG-20191026-WA0031.jpg"
+            "foto": "images/IMG-20191026-WA0031.jpg"
           },
           {
             "nombre": "Articulos FACPYA Libreria Elefantes",
@@ -381,7 +380,7 @@
             "horario": "10:00 AM - 8:30 PM",
             "tags": "souvenirs, articulos, elefantes, tienda, chaquetas, paraguas, termos, mochilas, maletines",
             "icon": "gifts",
-            "foto": "/images/IMG-20191026-WA0033.jpg"
+            "foto": "images/IMG-20191026-WA0033.jpg"
           },
           {
             "nombre": "Baños",
@@ -430,7 +429,7 @@
             "coordenadas": "25.72872,-100.30916",
             "tags": "cajeros, dinero, money, atm, cash, efectivo, afirme",
             "icon": "money-bill",
-            "foto": "/images/IMG-20191026-WA0039.jpg"
+            "foto": "images/IMG-20191026-WA0039.jpg"
           },
           {
             "nombre": "Cajero AFIRME",
@@ -439,7 +438,7 @@
             "coordenadas": "25.72800,-100.30922",
             "tags": "cajeros, dinero, money, atm, cash, efectivo, afirme",
             "icon": "money-bill",
-            "foto": "/images/IMG-20191026-WA0034.jpg"
+            "foto": "images/IMG-20191026-WA0034.jpg"
           }
         ]
       },
@@ -457,7 +456,7 @@
             "horario": "8:30 AM - 10:00 PM",
             "tags": "comidas, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas, mesas",
             "icon": "hamburger",
-            "foto": "/images/IMG-20191026-WA0020.jpg"
+            "foto": "images/IMG-20191026-WA0020.jpg"
           },
           {
             "nombre": "Cafetería FACDYC",
@@ -468,7 +467,7 @@
             "precios": "Comida del dia $60.00, Comida especial $70.00, Chilaquiles $55.00, Taco de Guiso $12.00, Burrito de Guiso $25.00",
             "tags": "comidas, cafeteria, burritos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas, mesas",
             "icon": "utensils",
-            "foto": "/images/IMG-20191026-WA0025.jpg"
+            "foto": "images/IMG-20191026-WA0025.jpg"
           },
           {
             "nombre": "Papelería de FACDYC",
@@ -479,7 +478,7 @@
             "precios": "Copias $0.50 c/u, Impresiones B&N $1.00 c/u, Engargolado $25.00",
             "tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
             "icon": "paperclip",
-            "foto": "/images/IMG-20191026-WA0022.jpg"
+            "foto": "images/IMG-20191026-WA0022.jpg"
           },
           {
             "nombre": "Biblioteca de FACDYC",
@@ -489,7 +488,7 @@
             "horario": "7:30 AM - 9:00 PM",
             "tags": "libros, estudio, descanso, computadoras, cubiculos",
             "icon": "book-reader",
-            "foto": "/images/IMG-20191026-WA0023.jpg"
+            "foto": "images/IMG-20191026-WA0023.jpg"
           },
           {
             "nombre": "Cajero BANORTE",
@@ -498,7 +497,7 @@
             "coordenadas": "25.72692,-100.30978",
             "tags": "cajeros, dinero, money, atm, cash, efectivo, banorte",
             "icon": "money-bill",
-            "foto": "/images/IMG-20191026-WA0028.jpg"
+            "foto": "images/IMG-20191026-WA0028.jpg"
           },
           {
             "nombre": "FERIA",
@@ -507,7 +506,7 @@
             "coordenadas": "25.72683,-100.30980",
             "tags": "tajeta, feria, celular, saldo, recarga",
             "icon": "money-bill",
-            "foto": "/images/IMG-20191026-WA0027.jpg"
+            "foto": "images/IMG-20191026-WA0027.jpg"
           },
           {
             "nombre": "Baños",
@@ -556,7 +555,7 @@
             "coordenadas": "25.72475,-100.31410",
             "tags": "comidas, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas, mesas, nuggets",
             "icon": "utensils",
-            "foto": "/images/IMG-20191027-WA0003.jpg"
+            "foto": "images/IMG-20191027-WA0003.jpg"
           },
           {
             "nombre": "Chilaquiles de Civil",
@@ -605,7 +604,7 @@
             "coordenadas": "25.72703,-100.31061",
             "tags": "comidas, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas, mesas, nuggets",
             "icon": "utensils",
-            "foto": "/images/IMG-20191026-WA0019.jpg"
+            "foto": "images/IMG-20191026-WA0019.jpg"
           },
           {
             "nombre": "Papeleria de FFYL",
@@ -616,7 +615,7 @@
             "precios": "Copias $1.00 c/u, Impresiones B&N $1.00 c/u, Engargolado $20.00",
             "tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
             "icon": "paperclip",
-            "foto": "/images/IMG-20191026-WA0018.jpg"
+            "foto": "images/IMG-20191026-WA0018.jpg"
           },
           {
             "nombre": "Bebedero ",
@@ -650,7 +649,7 @@
             "horario": "7: 00 AM - 9: 00 PM",
             "tags": "comidas, cafeteria, burritos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas",
             "icon": "utensils",
-            "foto": "/images/IMG-20191029-WA0013.jpg"
+            "foto": "images/IMG-20191029-WA0013.jpg"
           },
           {
             "nombre": "Farmacia Universitaria",
@@ -660,7 +659,7 @@
             "horario": "7: 00 AM - 9: 00 PM",
             "tags": "comidas, cafeteria, burritos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas",
             "icon": "utensils",
-            "foto": "/images/IMG-20191106-WA0002.jpg"
+            "foto": "images/IMG-20191106-WA0002.jpg"
           },
           {
             "nombre": "Cajero BANORTE",
@@ -669,7 +668,7 @@
             "coordenadas": "25.72400,-100.31588",
             "tags": "cajeros, dinero, money, atm, cash, efectivo, afirme",
             "icon": "money-bill",
-            "foto": "/images/IMG-20191106-WA0008.jpg"
+            "foto": "images/IMG-20191106-WA0008.jpg"
           },
           {
             "nombre": "Papeleria de FCQ",
@@ -723,7 +722,7 @@
             "horario": "7: 00 AM - 9: 00 PM",
             "tags": "comidas, cafeteria, burritos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas",
             "icon": "utensils",
-            "foto": "/images/IMG-20191029-WA0014.jpg"
+            "foto": "images/IMG-20191029-WA0014.jpg"
           },
           {
             "nombre": "Cajero AFIRME",
@@ -732,7 +731,7 @@
             "coordenadas": "25.72399,-100.31604",
             "tags": "cajeros, dinero, money, atm, cash, efectivo, afirme",
             "icon": "money-bill",
-            "foto": "/images/IMG-20191106-WA0007.jpg"
+            "foto": "images/IMG-20191106-WA0007.jpg"
           },
           {
             "nombre": "Papeleria de FCB",
@@ -785,7 +784,7 @@
             "coordenadas": "25.72770,-100.31231",
             "tags": "comidas, cafeteria, enchiladas, enmoladas, flautas, milanesa, huevos, machacado, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas",
             "icon": "utensils",
-            "foto": "/images/IMG-20191026-WA0012.jpg"
+            "foto": "images/IMG-20191026-WA0012.jpg"
           },
           {
             "nombre": "Papeleria FOD",
@@ -794,7 +793,7 @@
             "coordenadas": "25.72753,-100.31229",
             "tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
             "icon": "paperclip",
-            "foto": "/images/IMG-20191026-WA0016.jpg"
+            "foto": "images/IMG-20191026-WA0016.jpg"
           },
           {
             "nombre": "Licuados FOD",
@@ -803,7 +802,7 @@
             "coordenadas": "25.72564, -100.31193",
             "tags": "comidas, snack, licuados, cocteles, coca, refresco, paletas, aguas, papas, nachos, elotes",
             "icon": "paperclip",
-            "foto": "/images/IMG-20191026-WA0013.jpg"
+            "foto": "images/IMG-20191026-WA0013.jpg"
           }
         ]
       }
