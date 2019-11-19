@@ -120,7 +120,8 @@
             "horario": "9:00 AM - 12:00 PM",
             "precios": "Cada burrito $12",
             "tags": "burros, tacos, burripizza, burritos, deshebrada",
-            "icon": "utensils"
+            "icon": "utensils",
+            "foto": "/images/IMG-20191026-WA0052.jpg"
           },
           {
             "nombre": "Snack de FIME",
@@ -141,12 +142,13 @@
             "icon": "print"
           },
           {
-            "nombre": "Snack de Duritos",
+            "nombre": "Snack de Duritos (Don Duro)",
             "descripcion": "Venta de diversos produtos: Duritos preparados, Tostitos y Conchitas preparadas, frituras, dulces, entre otros.",
             "categoria": "Comidas",
             "coordenadas": "25.72631, -100.31264",
             "tags": "Doritos preparados, duritos, Tostitos y Conchitas preparadas, frituras, dulces",
-            "icon": "utensils"
+            "icon": "utensils",
+            "foto": "/images/IMG-20191026-WA0053.jpg"
           },
           {
             "nombre": "Don Chip",
@@ -177,8 +179,7 @@
       {
         "nombre": "Facultad de Arquitectura",
         "abrev": "FARQ",
-        "descripcion": "La Facultad de Ingeniería Mecánica y Eléctrica (FIME) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León.",
-        "coordenadas": "25.72516, -100.31200",
+        "descripcion": "La Facultad de Arquitectura (FARQ) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León.",        "coordenadas": "25.72516, -100.31200",
         "marcador": [
           {
             "nombre": "Cafeteria FARQ",
@@ -186,15 +187,62 @@
             "categoria": "Comidas",
             "coordenadas": "25.72544, -100.31118",
             "tags": "comidas, cafeteria, burritos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas",
-            "icon": "utensils"
+            "icon": "utensils",
+            "foto": "/images/IMG-20191026-WA0043.jpg"
           },
           {
-            "nombre": "Papeleria FARQ",
+            "nombre": "Papeleria FARQ(Doña CHOPE)",
             "descripcion": "Venta de utensilios escolares universitarios.",
             "categoria": "Papeleria",
             "coordenadas": "25.72564, -100.31193",
-            "tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
-            "icon": "paperclip"
+            "tags": "papeleria, utensilios, enmicado, engargolado",
+            "icon": "paperclip",
+            "foto": "/images/IMG-20191026-WA0055.jpg"
+          },
+          {
+            "nombre": "Impresiones FARQ",
+            "descripcion": "Impresiones.",
+            "categoria": "Papeleria",
+            "coordenadas": "25.72531,-100.31193",
+            "tags": "copias, impresiones",
+            "icon": "paperclip",
+            "foto": "/images/IMG-20191026-WA0048.jpg"
+          },
+          {
+            "nombre": "Papeleria PEGASSO",
+            "descripcion": "Venta de utensilios escolares universitarios.",
+            "categoria": "Papeleria",
+            "coordenadas": "25.72499,-100.31246",
+            "tags": "papeleria, utensilios, enmicado, engargolado,copias, impresiones",
+            "icon": "paperclip",
+            "foto": "/images/IMG-20191026-WA0049.jpg"
+          },
+          {
+            "nombre": "Snack de FARQ",
+            "descripcion": "Venta de diversos produtos: Postres, licuados, Tostitos y tostadas preparadas, frituras, dulces, entre otros.",
+            "categoria": "Comidas",
+            "coordenadas": "25.72631, -100.31264",
+            "tags": "postre, tacos, hamburguesa, smoothie, papas, Tostitos y tostadas preparadas, frituras, dulces",
+            "icon": "utensils",
+            "foto": "/images/IMG-20191026-WA0045.jpg"
+          },
+          {
+            "nombre": "Biblioteca de FARQ",
+            "descripcion": "Biblioteca FARQ",
+            "categoria": "Biblioteca",
+            "coordenadas": "25.72734,-100.30938",
+            "tags": "libros, estudio, descanso, computadoras, cubiculos",
+            "icon": "book-reader",
+            "foto": "25.72538,-100.31144.jpg"
+          },
+          {
+            "nombre": "BINBOX",
+            "descripcion": "Venta de café de diversos estilos.",
+            "categoria": "Comidas",
+            "coordenadas": "25.72586,-100.31207",
+            "tags": "café,postre",
+            "icon": "utensils",
+            "foto": "/images/IMG-20191026-WA0054.jpg"
           }
         ]
       },
@@ -221,7 +269,27 @@
             "horario": "7: 00 AM - 9: 00 PM",
             "precios": "Impresiones B&N $1.00 c/u, Copias $0.50 c/u, Engargolado $20.00",
             "tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
-            "icon": "paperclip"
+            "icon": "paperclip",
+            "foto": "/images/IMG-20191026-WA0037.jpg"
+          },
+          {
+            "nombre": "Snack de FTSYDH",
+            "descripcion": "Snack oficial de FTSYDH",
+            "categoria": "Comidas",
+            "coordenadas": "25.72794,-100.30985",
+            "horario": "6:30 AM - 9:30 PM",
+            "tags": "comidas, cafeteria, hot dog, pizza dog, sandwich, fruta, nachos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas, cafe, frutas, manzana, platano, papas fritas, gatorade, chocolate",
+            "icon": "utensils",
+            "foto": "/images/IMG-20191026-WA0036.jpg"
+          },
+          {
+            "nombre": "Biblioteca de FTSYDH",
+            "descripcion": "Biblioteca FTSYDH",
+            "categoria": "Biblioteca",
+            "coordenadas": "25.72779,-100.31014",
+            "tags": "libros, estudio, descanso, computadoras, cubiculos",
+            "icon": "book-reader",
+            "foto": "/images/IMG-20191026-WA0038.jpg"
           },
           {
             "nombre": "Bebedero",
@@ -262,7 +330,8 @@
             "coordenadas": "25.72761,-100.30954",
             "horario": "7:00 AM - 9:30 PM",
             "tags": "comidas, cafeteria, burritos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas",
-            "icon": "utensils"
+            "icon": "utensils",
+            "foto": "/images/IMG-20191026-WA0032.jpg"
           },
           {
             "nombre": "Biblioteca de FACPYA",
@@ -270,7 +339,8 @@
             "categoria": "Biblioteca",
             "coordenadas": "25.72734,-100.30938",
             "tags": "libros, estudio, descanso, computadoras, cubiculos",
-            "icon": "book-reader"
+            "icon": "book-reader",
+            "foto": "/images/IMG-20191026-WA0030.jpg"
           },
           {
             "nombre": "Hotchos de FACPYA",
@@ -279,8 +349,9 @@
             "coordenadas": "25.72749,-100.30946",
             "horario": "8:30 AM - 9:30 PM",
             "precios": "Hotdogs grandes $20, Hotdogs normales $15",
-            "tags": "hotdogs, hotchos, comidas",
-            "icon": "hotdog"
+            "tags": "hotdogs, hotchos, comidas, tacos, refrescos, soda",
+            "icon": "hotdog",
+            "foto": "/images/IMG-20191026-WA0029.jpg"
           },
           {
             "nombre": "Snack de FACPYA",
@@ -289,7 +360,8 @@
             "coordenadas": "25.72812,-100.30970",
             "horario": "8:00 AM - 9:30 PM",
             "tags": "snacks, comidas, refrescos, coca, soda, papas",
-            "icon": "hamburger"
+            "icon": "hamburger",
+            "foto": "/images/IMG-20191026-WA0035.jpg"
           },
           {
             "nombre": "Papeleria FACPYA",
@@ -298,7 +370,8 @@
             "coordenadas": "25.72733,-100.30952",
             "horario": "7:00 AM - 9:00 PM",
             "tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
-            "icon": "paperclip"
+            "icon": "paperclip",
+            "foto": "/images/IMG-20191026-WA0031.jpg"
           },
           {
             "nombre": "Articulos FACPYA Libreria Elefantes",
@@ -307,7 +380,8 @@
             "coordenadas": "25.72730,-100.30954",
             "horario": "10:00 AM - 8:30 PM",
             "tags": "souvenirs, articulos, elefantes, tienda, chaquetas, paraguas, termos, mochilas, maletines",
-            "icon": "gifts"
+            "icon": "gifts",
+            "foto": "/images/IMG-20191026-WA0033.jpg"
           },
           {
             "nombre": "Baños",
@@ -355,7 +429,8 @@
             "categoria": "Cajeros",
             "coordenadas": "25.72872,-100.30916",
             "tags": "cajeros, dinero, money, atm, cash, efectivo, afirme",
-            "icon": "money-bill"
+            "icon": "money-bill",
+            "foto": "/images/IMG-20191026-WA0039.jpg"
           },
           {
             "nombre": "Cajero AFIRME",
@@ -363,7 +438,8 @@
             "categoria": "Cajeros",
             "coordenadas": "25.72800,-100.30922",
             "tags": "cajeros, dinero, money, atm, cash, efectivo, afirme",
-            "icon": "money-bill"
+            "icon": "money-bill",
+            "foto": "/images/IMG-20191026-WA0034.jpg"
           }
         ]
       },
@@ -380,7 +456,8 @@
             "coordenadas": "25.72668,-100.31019",
             "horario": "8:30 AM - 10:00 PM",
             "tags": "comidas, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas, mesas",
-            "icon": "hamburger"
+            "icon": "hamburger",
+            "foto": "/images/IMG-20191026-WA0020.jpg"
           },
           {
             "nombre": "Cafetería FACDYC",
@@ -390,7 +467,8 @@
             "horario": "7:30 AM - 9:30 PM",
             "precios": "Comida del dia $60.00, Comida especial $70.00, Chilaquiles $55.00, Taco de Guiso $12.00, Burrito de Guiso $25.00",
             "tags": "comidas, cafeteria, burritos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas, mesas",
-            "icon": "utensils"
+            "icon": "utensils",
+            "foto": "/images/IMG-20191026-WA0025.jpg"
           },
           {
             "nombre": "Papelería de FACDYC",
@@ -400,7 +478,8 @@
             "horario": "7:00 AM - 9:30 PM",
             "precios": "Copias $0.50 c/u, Impresiones B&N $1.00 c/u, Engargolado $25.00",
             "tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
-            "icon": "paperclip"
+            "icon": "paperclip",
+            "foto": "/images/IMG-20191026-WA0022.jpg"
           },
           {
             "nombre": "Biblioteca de FACDYC",
@@ -409,7 +488,8 @@
             "coordenadas": "25.72666,-100.31029",
             "horario": "7:30 AM - 9:00 PM",
             "tags": "libros, estudio, descanso, computadoras, cubiculos",
-            "icon": "book-reader"
+            "icon": "book-reader",
+            "foto": "/images/IMG-20191026-WA0023.jpg"
           },
           {
             "nombre": "Cajero BANORTE",
@@ -417,7 +497,17 @@
             "categoria": "Cajeros",
             "coordenadas": "25.72692,-100.30978",
             "tags": "cajeros, dinero, money, atm, cash, efectivo, banorte",
-            "icon": "money-bill"
+            "icon": "money-bill",
+            "foto": "/images/IMG-20191026-WA0028.jpg"
+          },
+          {
+            "nombre": "FERIA",
+            "descripcion": "Centro de recargas de tarjeta Feria y saldo para celulares, ubicado frente al estacionamiento de FACDYC/FACPYA",
+            "categoria": "Cajeros",
+            "coordenadas": "25.72683,-100.30980",
+            "tags": "tajeta, feria, celular, saldo, recarga",
+            "icon": "money-bill",
+            "foto": "/images/IMG-20191026-WA0027.jpg"
           },
           {
             "nombre": "Baños",
@@ -465,7 +555,8 @@
             "categoria": "Comidas",
             "coordenadas": "25.72475,-100.31410",
             "tags": "comidas, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas, mesas, nuggets",
-            "icon": "utensils"
+            "icon": "utensils",
+            "foto": "/images/IMG-20191027-WA0003.jpg"
           },
           {
             "nombre": "Chilaquiles de Civil",
@@ -477,7 +568,7 @@
           },
           {
             "nombre": "Bebedero ",
-            "descripcion": "Bebedero ubicado frente a la Cafeteria de Civil, cuenta con refill",
+            "descripcion": "Bebedero ubicado frente a la Cafeteria de Civil",
             "categoria": "Bebederos",
             "coordenadas": "25.72476,-100.31388",
             "tags": "agua, refill, bebederos, refill",
@@ -511,19 +602,21 @@
             "nombre": "Cafetería de FFYL",
             "descripcion": "Cafetería Oficial de FFYL",
             "categoria": "Comidas",
-            "coordenadas": "25.72724,-100.31060",
+            "coordenadas": "25.72703,-100.31061",
             "tags": "comidas, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas, mesas, nuggets",
-            "icon": "utensils"
+            "icon": "utensils",
+            "foto": "/images/IMG-20191026-WA0019.jpg"
           },
           {
             "nombre": "Papeleria de FFYL",
             "descripcion": "Papeleria de FFYL ubicada frente al estacionamiento",
             "categoria": "Papeleria",
-            "coordenadas": "25.72731,-100.31074",
+            "coordenadas": "25.72718,-100.31082",
             "horario": "7:00 AM - 9:30 PM",
             "precios": "Copias $1.00 c/u, Impresiones B&N $1.00 c/u, Engargolado $20.00",
             "tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
-            "icon": "paperclip"
+            "icon": "paperclip",
+            "foto": "/images/IMG-20191026-WA0018.jpg"
           },
           {
             "nombre": "Bebedero ",
@@ -540,6 +633,177 @@
             "coordenadas": "25.72731,-100.31036",
             "tags": "lavabos, jabon, baños",
             "icon": "restroom"
+          }
+        ]
+      },
+      {
+        "nombre": "Facultad de Ciencias Químicas",
+        "abrev": "FCQ",
+        "descripcion": "La Facultad de Ciencia Químicas (FCQ) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León.",
+        "coordenadas": "25.72419,-100.31545",
+        "marcador": [
+          {
+            "nombre": "Cafetería de FCQ",
+            "descripcion": "La cafeteria oficial de FCQ.",
+            "categoria": "Comidas",
+            "coordenadas": "25.72474,-100.31538",
+            "horario": "7: 00 AM - 9: 00 PM",
+            "tags": "comidas, cafeteria, burritos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas",
+            "icon": "utensils",
+            "foto": "/images/IMG-20191029-WA0013.jpg"
+          },
+          {
+            "nombre": "Farmacia Universitaria",
+            "descripcion": "La farmacia oficial de FCQ.",
+            "categoria": "Comidas",
+            "coordenadas": "25.72420,-100.31514",
+            "horario": "7: 00 AM - 9: 00 PM",
+            "tags": "comidas, cafeteria, burritos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas",
+            "icon": "utensils",
+            "foto": "/images/IMG-20191106-WA0002.jpg"
+          },
+          {
+            "nombre": "Cajero BANORTE",
+            "descripcion": "Cajero ubicado a un lado de la Facultad de Ciencias Químicas, frente a la parada de camiones",
+            "categoria": "Cajeros",
+            "coordenadas": "25.72400,-100.31588",
+            "tags": "cajeros, dinero, money, atm, cash, efectivo, afirme",
+            "icon": "money-bill",
+            "foto": "/images/IMG-20191106-WA0008.jpg"
+          },
+          {
+            "nombre": "Papeleria de FCQ",
+            "descripcion": "Papeleria de FCQ",
+            "categoria": "Papeleria",
+            "coordenadas": "",
+            "horario": "7: 00 AM - 9: 00 PM",
+            "precios": "Impresiones B&N $1.00 c/u, Copias $0.50 c/u, Engargolado $20.00",
+            "tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
+            "icon": "paperclip",
+            "foto": ""
+          },
+          {
+            "nombre": "Biblioteca de FCQ",
+            "descripcion": "Biblioteca FCQ",
+            "categoria": "Biblioteca",
+            "coordenadas": "",
+            "tags": "libros, estudio, descanso, computadoras, cubiculos",
+            "icon": "book-reader",
+            "foto": ""
+          },
+          {
+            "nombre": "Baños",
+            "descripcion": "Baño de mujeres.",
+            "categoria": "Baños",
+            "coordenadas": "",
+            "tags": "lavabos, jabon, baños",
+            "icon": "restroom"
+          },
+          {
+            "nombre": "Baños",
+            "descripcion": "Baño de hombres",
+            "categoria": "Baños",
+            "coordenadas": "25.72433,-100.31524",
+            "tags": "lavabos, jabon, baños",
+            "icon": "restroom"
+          }
+        ]
+      },
+      {
+        "nombre": "Facultad de Ciencias Biológicas",
+        "abrev": "FCQ",
+        "descripcion": "La Facultad de Ciencias Biológicas (FCB) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León.",
+        "coordenadas": "25.72421,-100.31636",
+        "marcador": [
+          {
+            "nombre": "Cafetería de FCB",
+            "descripcion": "La cafeteria oficial de FCB.",
+            "categoria": "Comidas",
+            "coordenadas": "25.72454,-100.31596",
+            "horario": "7: 00 AM - 9: 00 PM",
+            "tags": "comidas, cafeteria, burritos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas",
+            "icon": "utensils",
+            "foto": "/images/IMG-20191029-WA0014.jpg"
+          },
+          {
+            "nombre": "Cajero AFIRME",
+            "descripcion": "Cajero ubicado a un lado de la Facultad de Ciencias Biolólogicas, frente a la parada de camiones",
+            "categoria": "Cajeros",
+            "coordenadas": "25.72399,-100.31604",
+            "tags": "cajeros, dinero, money, atm, cash, efectivo, afirme",
+            "icon": "money-bill",
+            "foto": "/images/IMG-20191106-WA0007.jpg"
+          },
+          {
+            "nombre": "Papeleria de FCB",
+            "descripcion": "Papeleria de FCB",
+            "categoria": "Papeleria",
+            "coordenadas": "",
+            "horario": "7: 00 AM - 9: 00 PM",
+            "precios": "Impresiones B&N $1.00 c/u, Copias $0.50 c/u, Engargolado $20.00",
+            "tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
+            "icon": "paperclip",
+            "foto": ""
+          },
+          {
+            "nombre": "Biblioteca de FCB",
+            "descripcion": "Biblioteca FCB",
+            "categoria": "Biblioteca",
+            "coordenadas": "",
+            "tags": "libros, estudio, descanso, computadoras, cubiculos",
+            "icon": "book-reader",
+            "foto": ""
+          },
+          {
+            "nombre": "Baños",
+            "descripcion": "Baño de mujeres.",
+            "categoria": "Baños",
+            "coordenadas": "",
+            "tags": "lavabos, jabon, baños",
+            "icon": "restroom"
+          },
+          {
+            "nombre": "Baños",
+            "descripcion": "Baño de hombres",
+            "categoria": "Baños",
+            "coordenadas": "",
+            "tags": "lavabos, jabon, baños",
+            "icon": "restroom"
+          }
+        ]
+      },
+      {
+        "nombre": "Facultad de Organización Deportiva",
+        "abrev": "FOD",
+        "descripcion": "La Facultad de Organización Deportiva (FOD) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León.",
+        "coordenadas": "25.72722,-100.31258",
+        "marcador": [
+          {
+            "nombre": "Cafeteria FOD",
+            "descripcion": "La cafeteria oficial de FOD.",
+            "categoria": "Comidas",
+            "coordenadas": "25.72770,-100.31231",
+            "tags": "comidas, cafeteria, enchiladas, enmoladas, flautas, milanesa, huevos, machacado, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas",
+            "icon": "utensils",
+            "foto": "/images/IMG-20191026-WA0012.jpg"
+          },
+          {
+            "nombre": "Papeleria FOD",
+            "descripcion": "Venta de utensilios escolares universitarios.",
+            "categoria": "Papeleria",
+            "coordenadas": "25.72753,-100.31229",
+            "tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
+            "icon": "paperclip",
+            "foto": "/images/IMG-20191026-WA0016.jpg"
+          },
+          {
+            "nombre": "Licuados FOD",
+            "descripcion": "Venta de licuados y cocteles de fruta.",
+            "categoria": "Papeleria",
+            "coordenadas": "25.72564, -100.31193",
+            "tags": "comidas, snack, licuados, cocteles, coca, refresco, paletas, aguas, papas, nachos, elotes",
+            "icon": "paperclip",
+            "foto": "/images/IMG-20191026-WA0013.jpg"
           }
         ]
       }
