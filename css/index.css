@@ -1,11 +1,10 @@
-
-.map {
-    position: fixed;
-    width: 100%;
-    height: 100%;
+body {
+  padding-top: 56px;
+  margin: 0;
 }
-input {
-    width: 300px;
-    /* padding: 0.5em 0.5em;
-    font-size: 1.2em; */
+
+html, body, #map{
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
 }
