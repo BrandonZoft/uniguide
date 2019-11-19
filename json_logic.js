@@ -54,7 +54,7 @@ request.onreadystatechange = function (response) {
             classInput.placeholder = "Selecciona una categoria";
         } else {
             // An error occured :(
-            facultyInput.placeholder = "Couldn't load datalist options :(";
+            facultyInput.placeholder = "No se puedo cargar :(";
         }
     }
 };

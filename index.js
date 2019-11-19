@@ -23,7 +23,7 @@ map.setMaxBounds(bounds);
 //'http://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png'
 
 L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png', {
-	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a> | Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors',
+	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia mapas</a> | Datos de mapa © <a href="https://openstreetmap.org">OpenStreetMap</a> contribuyentes',
 	maxBounds: bounds,
 	maxZoom: 19, //not working
 	minZoom: 16
