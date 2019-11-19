@@ -202,10 +202,6 @@ function json_create_markers(json_array) {
         var newMarker = L.marker([coordenadasArray[0], coordenadasArray[1]], { icon: L.AwesomeMarkers.icon({ icon: jsonIcon, prefix: 'fa', markerColor: jsonColor }) }).on('click', onClick).addTo(map);
         newMarker.bindPopup(info)
         popupMarkerArray.addLayer(newMarker)
-        
-
-
-        console.log('-""""""""""""""""""""""""""""""-----------""""""""""""""""""""""""""""""--')
     }
     map.addLayer(popupMarkerArray);
 }
