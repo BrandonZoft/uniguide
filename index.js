@@ -5,14 +5,9 @@ $(document).ready(function () {
 	});
 });
 
-$(document).ready(function () {
-	$(window).keydown(function (event) {
-		if (event.keyCode == 13) {
-			event.preventDefault();
-			document.getElementById("btnSearch").click();
-			return false;
-		}
-	});
+$("#tags").keydown(function () {
+	searchTags();
+	event.preventDefault();
 });
 
 var map = new L.map('map');
@@ -26,7 +21,7 @@ map.setMaxBounds(bounds);
 //'http://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png'
 
 L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png', {
-	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a> <a href="https://leafletjs.com/">Leaflet</a> | © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a> | Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors',
 	maxBounds: bounds,
 	maxZoom: 19, //not working
 	minZoom: 16

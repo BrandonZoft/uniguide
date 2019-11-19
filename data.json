@@ -119,7 +119,7 @@
             "coordenadas": "25.72651, -100.31278",
             "horario": "9:00 AM - 12:00 PM",
             "precios": "Cada burrito $12",
-            "tags": "lavabos, jabon, baños",
+            "tags": "burros, tacos, burripizza, burritos, deshebrada",
             "icon": "utensils"
           },
           {
@@ -477,7 +477,7 @@
           },
           {
             "nombre": "Bebedero ",
-            "descripcion": "Bebedero ubicado frente a la Cafeteria de Civil",
+            "descripcion": "Bebedero ubicado frente a la Cafeteria de Civil, cuenta con refill",
             "categoria": "Bebederos",
             "coordenadas": "25.72476,-100.31388",
             "tags": "agua, refill, bebederos, refill",
