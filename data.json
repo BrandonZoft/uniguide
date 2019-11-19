@@ -675,7 +675,7 @@
             "nombre": "Papeleria de FCQ",
             "descripcion": "Papeleria de FCQ",
             "categoria": "Papeleria",
-            "coordenadas": "",
+            "coordenadas": "25.72454,-100.31553",
             "horario": "7: 00 AM - 9: 00 PM",
             "precios": "Impresiones B&N $1.00 c/u, Copias $0.50 c/u, Engargolado $20.00",
             "tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
@@ -686,18 +686,10 @@
             "nombre": "Biblioteca de FCQ",
             "descripcion": "Biblioteca FCQ",
             "categoria": "Biblioteca",
-            "coordenadas": "",
+            "coordenadas": "25.72461,-100.31561",
             "tags": "libros, estudio, descanso, computadoras, cubiculos",
             "icon": "book-reader",
             "foto": ""
-          },
-          {
-            "nombre": "Baños",
-            "descripcion": "Baño de mujeres.",
-            "categoria": "Baños",
-            "coordenadas": "",
-            "tags": "lavabos, jabon, baños",
-            "icon": "restroom"
           },
           {
             "nombre": "Baños",
@@ -733,42 +725,6 @@
             "tags": "cajeros, dinero, money, atm, cash, efectivo, afirme",
             "icon": "money-bill",
             "foto": "images/IMG-20191106-WA0007.jpg"
-          },
-          {
-            "nombre": "Papeleria de FCB",
-            "descripcion": "Papeleria de FCB",
-            "categoria": "Papeleria",
-            "coordenadas": "",
-            "horario": "7: 00 AM - 9: 00 PM",
-            "precios": "Impresiones B&N $1.00 c/u, Copias $0.50 c/u, Engargolado $20.00",
-            "tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
-            "icon": "paperclip",
-            "foto": ""
-          },
-          {
-            "nombre": "Biblioteca de FCB",
-            "descripcion": "Biblioteca FCB",
-            "categoria": "Biblioteca",
-            "coordenadas": "",
-            "tags": "libros, estudio, descanso, computadoras, cubiculos",
-            "icon": "book-reader",
-            "foto": ""
-          },
-          {
-            "nombre": "Baños",
-            "descripcion": "Baño de mujeres.",
-            "categoria": "Baños",
-            "coordenadas": "",
-            "tags": "lavabos, jabon, baños",
-            "icon": "restroom"
-          },
-          {
-            "nombre": "Baños",
-            "descripcion": "Baño de hombres",
-            "categoria": "Baños",
-            "coordenadas": "",
-            "tags": "lavabos, jabon, baños",
-            "icon": "restroom"
           }
         ]
       },
