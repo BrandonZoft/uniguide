@@ -5,9 +5,11 @@ $(document).ready(function () {
 	});
 });
 
-$("#tags").keydown(function () {
-	searchTags();
-	event.preventDefault();
+$("#tags").keydown(function (e) {
+	if (e.which == 13) {
+		searchTags();
+		event.preventDefault();
+	}
 });
 
 var map = new L.map('map');
