@@ -19,7 +19,9 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/egg.js/1.0/egg.min.js"></script>
     <script src="https://kit.fontawesome.com/6dd374d802.js" crossorigin="anonymous"></script>
     <script type="text/javascript">
-        var audio = new Audio(' https://s0.vocaroo.com/media/download_temp/Vocaroo_s0VL0kmJDo6M.mp3');
+        // let audioList = ['https://s0.vocaroo.com/media/download_temp/Vocaroo_s0VL0kmJDo6M.mp3', 'https://s1.vocaroo.com/media/download_temp/Vocaroo_s1398YlTqEe0.mp3']
+        // let audioURL = audioList[Math.floor(Math.random()*audioList.length)]
+        var audio = new Audio('https://s1.vocaroo.com/media/download_temp/Vocaroo_s1398YlTqEe0.mp3');
         //https://img.buzzfeed.com/buzzfeed-static/static/2015-11/6/9/enhanced/webdr09/anigif_enhanced-24916-1446821596-9.gif
         // https://s0.vocaroo.com/media/download_temp/Vocaroo_s0VL0kmJDo6M.mp3
         var egg = new Egg();
@@ -27,8 +29,9 @@
             jQuery('#egggif').fadeIn(300, function() {
                 window.setTimeout(function() {
                     jQuery('#egggif').hide();
-                }, 33400);
+                }, 15400);
                 audio.play();
+                
             });
         }, "konami-code");
         egg.addHook(function() {
@@ -58,7 +61,7 @@
 <body>
     
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-    <img id="egggif" src="https://i.giphy.com/media/3ohhwfAa9rbXaZe86c/giphy.webp">
+    <img id="egggif" src="https://thumbs.gfycat.com/ColorlessSpryCentipede-size_restricted.gif">
     <a class="navbar-brand" href="#"><img src="https://www.uanl.mx/wp-content/themes/uanl/assets/img/logotipo-U.png" width="30" height="30" alt=""><b> UANL</b> UNIGUIDE</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
