@@ -163,13 +163,14 @@ function json_create_markers(json_array) {
         // https://gis.stackexchange.com/questions/261028/dynamically-create-leaflet-popup-via-javascript-object
         
         let nombre = "<h3>" + marker[i].nombre + "</h3>"
+        let imagen = ''
         let descripcion = marker[i].descripcion
-        let info = nombre + descripcion
+        let info = nombre + imagen + descripcion
+        
         if(marker[i].hasOwnProperty('foto')){
-            if (marker[i].foto.startsWith('/')){
-                let imagen = '<img src="' + marker[i].foto +'" class="img-fluid">'
-                console.log(imagen)
-                let info = nombre + imagen + descripcion
+            if (marker[i].foto.startsWith('images')){
+                imagen = '<img src="' + marker[i].foto +'" class="img-fluid">'
+                info = nombre + imagen + descripcion
             }
         }
         
@@ -198,14 +199,14 @@ function json_create_markers(json_array) {
         } else {
             var jsonColor = 'cadetblue'
         }
-
         var newMarker = L.marker([coordenadasArray[0], coordenadasArray[1]], { icon: L.AwesomeMarkers.icon({ icon: jsonIcon, prefix: 'fa', markerColor: jsonColor }) }).on('click', onClick).addTo(map);
         newMarker.bindPopup(info)
         popupMarkerArray.addLayer(newMarker)
+        
 
 
+        console.log('-""""""""""""""""""""""""""""""-----------""""""""""""""""""""""""""""""--')
     }
-
     map.addLayer(popupMarkerArray);
 }
 

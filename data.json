@@ -180,6 +180,7 @@
         "nombre": "Facultad de Arquitectura",
         "abrev": "FARQ",
         "descripcion": "La Facultad de Arquitectura (FARQ) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León.",        "coordenadas": "25.72516, -100.31200",
+        "coordenadas": "25.72516, -100.31200",
         "marcador": [
           {
             "nombre": "Cafeteria FARQ",
@@ -221,7 +222,7 @@
             "nombre": "Snack de FARQ",
             "descripcion": "Venta de diversos produtos: Postres, licuados, Tostitos y tostadas preparadas, frituras, dulces, entre otros.",
             "categoria": "Comidas",
-            "coordenadas": "25.72631, -100.31264",
+            "coordenadas": "25.72544,-100.31121",
             "tags": "postre, tacos, hamburguesa, smoothie, papas, Tostitos y tostadas preparadas, frituras, dulces",
             "icon": "utensils",
             "foto": "images/IMG-20191026-WA0045.jpg"
