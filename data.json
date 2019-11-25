@@ -192,6 +192,14 @@
             "foto": "images/IMG-20191026-WA0043.jpg"
           },
           {
+            "nombre": "Banco BANORTE",
+            "descripcion": "Banco BANORTE, cuenta con dos cajeros",
+            "categoria": "Cajeros",
+            "coordenadas": "25.72496,-100.31113",
+            "tags": "cajeros, dinero, money, atm, cash, efectivo, banorte",
+            "icon": "money-bill"
+          },
+          {
             "nombre": "Papeleria FARQ(Doña CHOPE)",
             "descripcion": "Venta de utensilios escolares universitarios.",
             "categoria": "Papeleria",
@@ -493,6 +501,14 @@
           },
           {
             "nombre": "Cajero BANORTE",
+            "descripcion": "Cajero BANORTE Ubicado en rectoria",
+            "categoria": "Cajeros",
+            "coordenadas": "25.72543,-100.31056",
+            "tags": "cajeros, dinero, money, atm, cash, efectivo, banorte",
+            "icon": "money-bill"
+          },
+          {
+            "nombre": "Cajero BANORTE",
             "descripcion": "Cajero BANORTE Ubicado frente al estacionamiento de FACDYC/FACPYA",
             "categoria": "Cajeros",
             "coordenadas": "25.72692,-100.30978",
@@ -753,12 +769,28 @@
             "foto": "images/IMG-20191026-WA0016.jpg"
           },
           {
+            "nombre": "Baños",
+            "descripcion": "Baños a lado del bebedero en el primer piso",
+            "categoria": "Baños",
+            "coordenadas": "25.72761,-100.31213",
+            "tags": "lavabos, jabon, baños",
+            "icon": "restroom"
+          },
+          {
+            "nombre": "Bebedero ",
+            "descripcion": "Bebedero ubicado a lado del Baño",
+            "categoria": "Bebederos",
+            "coordenadas": "25.72754,-100.31213",
+            "tags": "agua, refill, bebederos, refill",
+            "icon": "tint"
+          },
+          {
             "nombre": "Licuados FOD",
             "descripcion": "Venta de licuados y cocteles de fruta.",
-            "categoria": "Papeleria",
-            "coordenadas": "25.72564, -100.31193",
-            "tags": "comidas, snack, licuados, cocteles, coca, refresco, paletas, aguas, papas, nachos, elotes",
-            "icon": "paperclip",
+            "categoria": "Comidas",
+            "coordenadas": "25.72717,-100.31247",
+            "tags": "Licuados, cocteles, fruta",
+            "icon": "glass-whiskey",
             "foto": "images/IMG-20191026-WA0013.jpg"
           }
         ]
