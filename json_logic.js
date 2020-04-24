@@ -10,7 +10,7 @@ var category_list = []
 var popupMarkerArray = new L.FeatureGroup();
 
 // Handle state changes for the request.
-request.onreadystatechange = function (response) {
+request.onreadystatechange = function(response) {
     if (request.readyState === 4) {
         if (request.status === 200) {
             // Parse the JSON
@@ -31,7 +31,7 @@ request.onreadystatechange = function (response) {
             for (i in window.jsonOptions.Universidad.Facultades) {
                 for (k in window.jsonOptions.Universidad.Facultades[i].marcador) {
                     var category = window.jsonOptions.Universidad.Facultades[i].marcador[k].categoria
-                    // console.log(jsonOptions.Universidad.Facultades[i].marcador[k].categoria)
+                        // console.log(jsonOptions.Universidad.Facultades[i].marcador[k].categoria)
                     if (category_list.includes(category) == false) {
                         category_list.push(category)
                     }
@@ -39,13 +39,13 @@ request.onreadystatechange = function (response) {
             }
 
 
-            
+
             for (i in category_list) {
                 // Create a new <option> element.
                 var option = document.createElement('option');
                 // Set the value using the item in the JSON array.
                 option.text = category_list[i]
-                // Add the <option> element to the <datalist>.
+                    // Add the <option> element to the <datalist>.
                 $('#class-choice').append(option).trigger('change');
             }
 
@@ -66,12 +66,13 @@ facultyInput.placeholder = "cargando opciones";
 // Set up and make the request.
 request.open('GET', 'https://raw.githubusercontent.com/BrandonZoft/uniguide/master/data.json', true);
 request.send();
+
 function searchTags() {
     tagsValue = document.getElementById("tags").value.toLowerCase();
     window.marker = {}
     let tagsArray = []
 
-    if (tagsValue !== ''){
+    if (tagsValue !== '') {
         for (i in window.jsonOptions.Universidad.Facultades) {
             for (k in window.jsonOptions.Universidad.Facultades[i].marcador) {
                 var tag = window.jsonOptions.Universidad.Facultades[i].marcador[k].tags
@@ -82,7 +83,7 @@ function searchTags() {
             }
         }
 
-        if (tagsArray.length === 0){
+        if (tagsArray.length === 0) {
             alert("No se encontro ningun lugar");
         }
         json_create_markers(tagsArray)
@@ -117,8 +118,7 @@ function search() {
                 }
             }
         }
-    }
-    else {
+    } else {
         for (i in window.jsonOptions.Universidad.Facultades) {
             if (window.jsonOptions.Universidad.Facultades[i].nombre == facultad) {
                 if (categoria == 'Todo') {
@@ -146,7 +146,7 @@ function search() {
     }
 
     json_create_markers(ikArray)
-    
+
 }
 
 function json_create_markers(json_array) {
@@ -161,19 +161,19 @@ function json_create_markers(json_array) {
     for (i in window.marker) {
         // getInfoFrom writes to .bindPopup
         // https://gis.stackexchange.com/questions/261028/dynamically-create-leaflet-popup-via-javascript-object
-        
-        let nombre = "<h3>" + marker[i].nombre + "</h3>"
+
+        let nombre = "<h3><b>" + marker[i].nombre + "</b></h3>"
         let imagen = ''
         let descripcion = marker[i].descripcion
-        let info = nombre + imagen + descripcion
-        
-        if(marker[i].hasOwnProperty('foto')){
-            if (marker[i].foto.startsWith('images')){
-                imagen = '<img src="' + marker[i].foto +'" class="img-fluid">'
-                info = nombre + imagen + descripcion
+        let info = imagen + nombre + descripcion
+
+        if (marker[i].hasOwnProperty('foto')) {
+            if (marker[i].foto.startsWith('images')) {
+                imagen = '<img class="popupimg" src="' + marker[i].foto + '" class="img-fluid"><br><br>'
+                info = imagen + nombre + descripcion
             }
         }
-        
+
         var coordenadasArray = marker[i].coordenadas.split(",")
 
         var jsonIcon = marker[i].icon
@@ -181,23 +181,23 @@ function json_create_markers(json_array) {
         // list of colors for icons
         // 'red', 'darkred', 'orange', 'green', 'darkgreen', 'blue', 'purple', 'darkpurple', 'cadetblue'
         if (marker[i].categoria == 'Ventas') {
-            var jsonColor = 'cadetblue'
+            var jsonColor = 'red'
         } else if (marker[i].categoria == 'Comidas') {
             var jsonColor = 'red'
         } else if (marker[i].categoria == 'Bebederos') {
-            var jsonColor = 'blue'
+            var jsonColor = 'darkred'
         } else if (marker[i].categoria == 'Baños') {
-            var jsonColor = 'blue'
+            var jsonColor = 'red'
         } else if (marker[i].categoria == 'Papeleria') {
-            var jsonColor = 'orange'
+            var jsonColor = 'purple'
         } else if (marker[i].categoria == 'Cajeros') {
-            var jsonColor = 'darkgreen'
+            var jsonColor = 'darkpurple'
         } else if (marker[i].categoria == 'Biblioteca') {
             var jsonColor = 'darkpurple'
         } else if (marker[i].categoria == 'Impresiones') {
-            var jsonColor = 'orange'
+            var jsonColor = 'darkred'
         } else {
-            var jsonColor = 'cadetblue'
+            var jsonColor = 'red'
         }
         var newMarker = L.marker([coordenadasArray[0], coordenadasArray[1]], { icon: L.AwesomeMarkers.icon({ icon: jsonIcon, prefix: 'fa', markerColor: jsonColor }) }).on('click', onClick).addTo(map);
         newMarker.bindPopup(info)
@@ -211,7 +211,7 @@ function onClick(e) {
     control.spliceWaypoints(control.getWaypoints().length - 1, 1, e.latlng);
     map.removeLayer(endmarker);
     endmarker = new L.marker(e.latlng, { draggable: 'false', icon: L.AwesomeMarkers.icon({ icon: 'location-arrow', prefix: 'fa', markerColor: 'darkpurple' }) });
-    endmarker.on('dragend', function (event) {
+    endmarker.on('dragend', function(event) {
         endmarker = event.target;
         var position = endmarker.getLatLng();
         control.spliceWaypoints(control.getWaypoints().length - 1, 1, position);
@@ -229,12 +229,32 @@ $('#class-choice').select2({
 });
 
 // https://stackoverflow.com/questions/37478727/how-can-i-make-a-browser-display-all-datalist-options-when-a-default-value-is-se
-$('input').on('click', function () {
+$('input').on('click', function() {
     $(this).attr('placeholder', $(this).val());
     $(this).val('');
 });
-$('input').on('mouseleave', function () {
+$('input').on('mouseleave', function() {
     if ($(this).val() == '') {
         $(this).val($(this).attr('placeholder'));
     }
 });
+
+// if (marker[i].categoria == 'Ventas') {
+//     var jsonColor = 'cadetblue'
+// } else if (marker[i].categoria == 'Comidas') {
+//     var jsonColor = 'red'
+// } else if (marker[i].categoria == 'Bebederos') {
+//     var jsonColor = 'blue'
+// } else if (marker[i].categoria == 'Baños') {
+//     var jsonColor = 'blue'
+// } else if (marker[i].categoria == 'Papeleria') {
+//     var jsonColor = 'orange'
+// } else if (marker[i].categoria == 'Cajeros') {
+//     var jsonColor = 'darkgreen'
+// } else if (marker[i].categoria == 'Biblioteca') {
+//     var jsonColor = 'darkpurple'
+// } else if (marker[i].categoria == 'Impresiones') {
+//     var jsonColor = 'orange'
+// } else {
+//     var jsonColor = 'cadetblue'
+// }
